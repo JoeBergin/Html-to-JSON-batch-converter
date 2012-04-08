@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 require 'rubygems'
 require 'nokogiri'
 require 'json'
@@ -12,6 +13,10 @@ end
 
 def clean text
   text.gsub(/’/,"'").gsub(/&nbsp;/,' ')
+end
+
+def shrinkWhitespace text
+	text.gsub(/\s+/, ' ').gsub(/\t+/, ' ').gsub(/\n/,' ');
 end
 
 def url text
@@ -55,10 +60,10 @@ def convert title, doc
   end
   
   doc.css('a').each do |elem|
-  	elem.replace doc.create_element('i', "[#{elem.attr('href')} #{elem.content}]")
+  	elem.replace doc.create_element('i', "[#{elem.attr('href')} #{shrinkWhitespace(elem.content)}]")
   end
   
-  retain = doc.css('h1') + doc.css('h2') + doc.css('h3') + doc.css('h4') + doc.css('h5') + doc.css('h6') + doc.css('pre') + doc.css('code') + doc.css('hr')
+  retain = doc.css('h1') + doc.css('h2') + doc.css('h3') + doc.css('h4') + doc.css('h5') + doc.css('h6') + doc.css('pre') + doc.css('code') + doc.css('hr') + doc.css('ul') + doc.css('ol')
   
   retain.each do |elem|
   	elem.replace doc.create_element('p', elem)

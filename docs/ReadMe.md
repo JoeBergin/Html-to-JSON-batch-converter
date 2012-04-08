@@ -10,6 +10,8 @@
 
 <p> Horizontal rules are preserved. </p>
 
+<p> Lists (ul and ol) are preserved. </p>
+
 <p>Ugly/beautiful markup (span, etc) within paragraphs will be preserved, which may NOT look good in the wiki. Beware, but wiki will likely ignore it anyway. </p>
 
 <p>Note, however, that some of the inserted markup (headings, pre, etc) is currently handled a bit strangely in SFW. When you first view the page, you actully see the markup as text. But if you double click the paragraph and immediately save, it will thereafter be interpreted correctly. It is an open issue in SFW, that will be addressed at some point.</p>
