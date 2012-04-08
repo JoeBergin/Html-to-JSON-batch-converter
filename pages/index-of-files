@@ -1,0 +1,34 @@
+{
+  "title": "Index Of Files",
+  "journal": [
+    {
+      "id": "24940f6c4d945908",
+      "type": "create",
+      "item": {
+        "title": "Index Of Files"
+      }
+    }
+  ],
+  "story": [
+    {
+      "text": "[[Read Me]]",
+      "id": "130dfbb4fe642379",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[References]]",
+      "id": "bec0588f390603e6",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Test]]",
+      "id": "5c3e11a6248736b5",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Three Pedagogical Patterns]]",
+      "id": "bdc56789a0fc8e2b",
+      "type": "paragraph"
+    }
+  ]
+}

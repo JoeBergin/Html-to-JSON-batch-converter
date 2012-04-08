@@ -1,0 +1,389 @@
+{
+  "title": "References",
+  "journal": [
+    {
+      "id": "3e770412da4f82a7",
+      "type": "create",
+      "item": {
+        "title": "References"
+      }
+    }
+  ],
+  "story": [
+    {
+      "text": "&lt;h1 class=\"AASolution\" id=\"heading_id_2\"&gt;\n  &lt;span class=\"sgc-7\"&gt;References&lt;/span&gt;\n  &lt;br/&gt;\n&lt;/h1&gt;",
+      "id": "0279a60cfd8ea17f",
+      "type": "paragraph"
+    },
+    {
+      "text": " ",
+      "id": "a1d67bbff30dc9d4",
+      "type": "paragraph"
+    },
+    {
+      "text": "[AC] Alistair Cockburn, Website, <i>[http://alistair.cockburn.us/Coffee+machine+design+problem,+part+1 http://alistair.cockburn.us/Coffee+machine+design+problem,+part+1]</i>",
+      "id": "bd211780bff383d8",
+      "type": "paragraph"
+    },
+    {
+      "text": "[AOC]<span>  \"Alan O'Callaghan, Simulation Game Workshop, <i>[http://www.pattron.net/Pattern.aspx?Id=156 http://www.pattron.net/Pattern.aspx?Id=156]</i></span>",
+      "id": "6b02b08740c8fa47",
+      "type": "paragraph"
+    },
+    {
+      "text": "[AOC2] Alan O'Callaghan, Mission Impossible, <i>[http://www.pattron.net/Pattern.aspx?Id=155 http://www.pattron.net/Pattern.aspx?Id=155]</i>",
+      "id": "a73b9e4fd68dc071",
+      "type": "paragraph"
+    },
+    {
+      "text": "[BA] Bruce Anderson, Reflective Learning: Empowering the 00 Practitioner, at the Educators Symposium, OOPSLA'96.",
+      "id": "7884dd9287d6e8a3",
+      "type": "paragraph"
+    },
+    {
+      "text": "[BB] Kent Beck and David Bellin, Round Robin, <i>[http://www.pattron.net/Pattern.aspx?Id=143 http://www.pattron.net/Pattern.aspx?Id=143]</i>",
+      "id": "e08960ebbda25597",
+      "type": "paragraph"
+    },
+    {
+      "text": "[BEMW] Joseph Bergin, Jutta Eckstein, Mary Lynn Manns, Eugene Wallingford. Patterns for Gaining Different Perspectives, Proceedings of PLoP 2001.",
+      "id": "66a7999c9eda9372",
+      "type": "paragraph"
+    },
+    {
+      "text": "[BL] Billy B.L.Lim, Programming in the Tiny, Small, Large, <i>[http://www.pattron.net/Pattern.aspx?Id=144 http://www.pattron.net/Pattern.aspx?Id=144]</i>",
+      "id": "6d8ea21372974de6",
+      "type": "paragraph"
+    },
+    {
+      "text": "[BM] Bertrand Meyer, http://www.softwarequotes.com/printableshowquotes.aspx?id=561",
+      "id": "ad404d17057084c3",
+      "type": "paragraph"
+    },
+    {
+      "text": "[BMRSS] Buschmann, F., Meunier, R., Rohnert, H., Sommerlad, P., Stal, M. (1996). <span class=\"T11\">Pattern-Oriented Software Architecture: A System of Patterns</span>.  Chichester, England:  John Wiley &amp; Sons.",
+      "id": "b6cda84803f0d6c3",
+      "type": "paragraph"
+    },
+    {
+      "text": "[BSRP] Bergin, Stehlik, Roberts, and Pattis. <span class=\"T11\">Karel++,</span> Wiley, 1997",
+      "id": "f115889dc4f0c0f8",
+      "type": "paragraph"
+    },
+    {
+      "text": "[BWB] Byron Weber-Becker, Expose the Process, <i>[http://www.pattron.net/Pattern.aspx?Id=180 http://www.pattron.net/Pattern.aspx?Id=180]</i>",
+      "id": "dc6889de4acfa6b3",
+      "type": "paragraph"
+    },
+    {
+      "text": "[CA] Christopher Alexander et.al., <span class=\"T11\">A Pattern Language: Towns -- Buildings -- Construction</span>. Oxford University Press 1977",
+      "id": "c6ca1ab71910d6d0",
+      "type": "paragraph"
+    },
+    {
+      "text": "[CD] S. Cook, J. Daniels, <span class=\"T11\">Designing Object Systems</span>, Prentice Hall 1994",
+      "id": "d6a37c96de8994a4",
+      "type": "paragraph"
+    },
+    {
+      "text": "[CH] Coplien, Harrison, <span class=\"T11\">Organizational Patterns of Agile Software Development,</span> Prentice Hall, 2004",
+      "id": "f8044cdaa05d6cf2",
+      "type": "paragraph"
+    },
+    {
+      "text": "[CLF] Clancy, Linn, <span class=\"T11\">Designing Pascal Solutions: A Case Study Approach</span>, Freeman, 1992",
+      "id": "aa5ef4f366b0e8cc",
+      "type": "paragraph"
+    },
+    {
+      "text": "[CS] Christoph Steindl, Self Test, Proceedings of EuroPLoP 2000, UKV Konstanz, 2001.",
+      "id": "f455291f84500a21",
+      "type": "paragraph"
+    },
+    {
+      "text": "[DA] Dana Anthony, MIX NEW AND OLD, in \"Patterns for Classroom Education\", <span class=\"T11\">Pattern Languages of Program Design 2,</span> edited by Vlissides, Coplien, and Kerth, Addison Wesley, 1996.",
+      "id": "ebf6080ad18bf119",
+      "type": "paragraph"
+    },
+    {
+      "text": "[DB1] David Bellin, Brainstorming, <i>[http://www.pattron.net/Pattern.aspx?Id=141 http://www.pattron.net/Pattern.aspx?Id=141]</i>",
+      "id": "21c2f3d9c1523ccf",
+      "type": "paragraph"
+    },
+    {
+      "text": "[DB2] David Bellin, ROLE PLAYING, <i>[http://www.pattron.net/Pattern.aspx?Id=142 http://www.pattron.net/Pattern.aspx?Id=142]</i>",
+      "id": "fdd0253f02acfd74",
+      "type": "paragraph"
+    },
+    {
+      "text": "[DB3] Donald Bagert, Concept, Glossary, Problem, Analyze, Discuss, Design (CoG-PADD), <i>[http://www.pattron.net/Pattern.aspx?Id=174 http://www.pattron.net/Pattern.aspx?Id=174]</i>",
+      "id": "f669141acd6d259c",
+      "type": "paragraph"
+    },
+    {
+      "text": "[EBS] Jutta Eckstein, Joseph Bergin, Helen Sharp. Patterns for Active Learning. Proceedings of PloP 2002.",
+      "id": "7b1af6f8b3fcee2a",
+      "type": "paragraph"
+    },
+    {
+      "text": "[EBS2] <span class=\"T4\">Jutta Eckstein, Joseph Bergin, Helen Sharp.</span> <span class=\"T5\">Feedback Patterns</span><span class=\"T4\">. Proceedings of EuroPLoP 2002.</span>",
+      "id": "70bf8d7cd1a57624",
+      "type": "paragraph"
+    },
+    {
+      "text": "[EMSS] Jutta Eckstein, Mary Lynn Manns, Helen Sharp, Marianne Sipos. <span class=\"T11\">Teaching From Different Perspectives</span>, Proceedings of EuroPLoP 2003.",
+      "id": "e1bca24e451cc5fb",
+      "type": "paragraph"
+    },
+    {
+      "text": "[EMWM] Jutta Eckstein, Mary Lynn Manns, Eugene Wallingford, Klaus Marquardt. Patterns for Experiential Learning, Proceedings of EuroPLoP 2001.",
+      "id": "1c8e99418259fbb8",
+      "type": "paragraph"
+    },
+    {
+      "text": "[FBA] Fernando Brieto e Abreu, Peer Review and Corrective Maintenance, <i>[http://www.pattron.net/Pattern.aspx?Id=148 http://www.pattron.net/Pattern.aspx?Id=148]</i>",
+      "id": "0dd70953e820dc68",
+      "type": "paragraph"
+    },
+    {
+      "text": "[FBA2] Fernando Brito e Abreu, Preparation, Industrial Presentation and Roundtable, <i>[http://www.pattron.net/Pattern.aspx?Id=149 http://www.pattron.net/Pattern.aspx?Id=149]</i>",
+      "id": "1e9e83fca0ed7163",
+      "type": "paragraph"
+    },
+    {
+      "text": "[FT] Frank Thomas, Ollie Johnston, <span class=\"T11\">Disney Animation: The Illusion of Life</span> Abbeville Press, New York 1981",
+      "id": "740e37254240df76",
+      "type": "paragraph"
+    },
+    {
+      "text": "[GJ] Ghinwa Jalloul, Academic to Industrial Project Link, <i>[http://www.pattron.net/Pattern.aspx?Id=177 http://www.pattron.net/Pattern.aspx?Id=177]</i>",
+      "id": "8f0c864db332ecc7",
+      "type": "paragraph"
+    },
+    {
+      "text": "[GLC] Gary L. Craig, Discussion-Activity-Review-Lab-Review, <i>[http://www.pattron.net/Pattern.aspx?Id=152 http://www.pattron.net/Pattern.aspx?Id=152]</i>",
+      "id": "b8dfd59767d8b32e",
+      "type": "paragraph"
+    },
+    {
+      "text": "[GM] <span class=\"T53\">George Miller. <i>[http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two]</i></span>",
+      "id": "7d99e9adfcb26e4c",
+      "type": "paragraph"
+    },
+    {
+      "text": "[HS] Helen Sharp, Round and Deep, <i>[http://www.pattron.net/Pattern.aspx?Id=181 http://www.pattron.net/Pattern.aspx?Id=181]</i>",
+      "id": "a3a657661cde667f",
+      "type": "paragraph"
+    },
+    {
+      "text": "[IC] Ian Chai, Concrete to Abstraction, <i>[http://www.pattron.net/Pattern.aspx?Id=138 http://www.pattron.net/Pattern.aspx?Id=138]</i>. This references the patterns \"Acquaintance Examples\" and \"Colorful Analogy\" from Dana Anthony, Patterns for Classroom Education, Proceedings of PloP'95",
+      "id": "edd1b31e28837554",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JB1] Joseph Bergin. Elementary Coding Patterns, <i>[http://csis.pace.edu/~bergin/patterns/codingpatterns.html http://csis.pace.edu/~bergin/patterns/codingpatterns.html]</i>",
+      "id": "4c104fe02f5d230b",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JB2] Joseph Bergin, Introvert &ndash; Extrovert, <i>[http://csis.pace.edu/~bergin/patterns/introvertExtrovert.html http://csis.pace.edu/~bergin/patterns/introvertExtrovert.html]</i>",
+      "id": "c60de10163c4f6f6",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JB3] Joseph Bergin, Fourteen Pedagogical Patterns, <i>[http://csis.pace.edu/~bergin/PedPat1.3.html http://csis.pace.edu/~bergin/PedPat1.3.html]</i>",
+      "id": "2040e3af39db373c",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JB4] Joseph Bergin, Some Pedagogical Patterns, <i>[http://csis.pace.edu/~bergin/patterns/fewpedpats.html http://csis.pace.edu/~bergin/patterns/fewpedpats.html]</i>",
+      "id": "7499119c3666f8a3",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JB5] <span class=\"T53\">Joseph Bergin, <i>[http://csis.pace.edu/~bergin/extremeconstruction/index.html http://csis.pace.edu/~bergin/extremeconstruction/index.html]</i></span>",
+      "id": "50e8f5150f35cc70",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JB6] <i>[http://csis.pace.edu/~bergin/patterns/coursepatternlanguage.html http://csis.pace.edu/~bergin/patterns/coursepatternlanguage.html]</i>",
+      "id": "7b9a0a8ddb829e94",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JE1] Jutta Eckstein, Learning to Teach and Learning to Learn, Proceedings of EuroPLoP 2000, UKV Konstanz, 2001.",
+      "id": "23ce7ef61adc3ac8",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JE2] Jutta Eckstein, INCREMENTAL ROLE PLAY, in Proceedings of EuroPLoP'98, edited by ens Coldewey and Paul Dyson, UKV, Universitaetsverlag Konstanz, 1999.",
+      "id": "481504861db7c717",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JK] Joshua Kerievsky. Pattern Language on Study Groups, <i>[http://industriallogic.com/papers/kh.html http://industriallogic.com/papers/kh.html]</i>",
+      "id": "e8a3c7cd2ec5ee52",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JM] Jeanine Meyer, Assigning and Grading (short) Team Projects, <i>[http://www.pattron.net/Pattern.aspx?Id=170 http://www.pattron.net/Pattern.aspx?Id=170]</i>",
+      "id": "064b918bbec2a198",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JM1] Jeanine Meyer, CLASS CONCEPT MAP, <i>[http://www.pattron.net/Pattern.aspx?Id=167 http://www.pattron.net/Pattern.aspx?Id=167]</i>",
+      "id": "4af2ce7e2a47e71b",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JM2] Jeanine Meyer, email correspondence, July 12, 2001.",
+      "id": "31cf1958d37a3d84",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JM3] Jeanine Meyer and Joseph Bergin, Gold Stars for Confusion, <i>[http://csis.pace.edu/~bergin/patterns/GoldStarsforConfusion.html http://csis.pace.edu/~bergin/patterns/GoldStarsforConfusion.html]</i>",
+      "id": "02ff91ebfac4daa3",
+      "type": "paragraph"
+    },
+    {
+      "text": "[JM4] Jeanine Meyer, Team Teaching, <i>[http://www.pattron.net/Pattern.aspx?Id=169 http://www.pattron.net/Pattern.aspx?Id=169]</i>",
+      "id": "ba00d930525ad46d",
+      "type": "paragraph"
+    },
+    {
+      "text": "[KB] <span class=\"T53\">Kent Beck, The Three Bears, <i>[http://www.pattron.net/Pattern.aspx?Id=151 http://www.pattron.net/Pattern.aspx?Id=151]</i></span>",
+      "id": "6ffd9c01c8792112",
+      "type": "paragraph"
+    },
+    {
+      "text": "[KCW]  Kerth, Coplien, Weinberg, <span class=\"T77\">\"</span><span class=\"T73\">Call for the Rational Use of Personality Indicators\", Computer, 31(1): 146-147, January 1998</span>",
+      "id": "680edc5fd366b95d",
+      "type": "paragraph"
+    },
+    {
+      "text": "[KL] Jorgen Lindskov Knudsen, and Ole Lehrmann, EXPLORE-PRESENT-INTERACT-CRITIQUE, <i>[http://www.pattron.net/Pattern.aspx?Id=145 http://www.pattron.net/Pattern.aspx?Id=145]</i>",
+      "id": "a09d26c83d161a34",
+      "type": "paragraph"
+    },
+    {
+      "text": "[KMM] Kevin Morris Marler, In-Line Exercises, <i>[http://www.pattron.net/Pattern.aspx?Id=171 http://www.pattron.net/Pattern.aspx?Id=171]</i>",
+      "id": "a10ad30a9f063b00",
+      "type": "paragraph"
+    },
+    {
+      "text": "[KMR] Kamin, Mickunas, Reingold <span class=\"T11\">An Introduction to Computer Science using Java</span>, McGraw-Hill, 1998",
+      "id": "aa8f82922bddd3b8",
+      "type": "paragraph"
+    },
+    {
+      "text": "[KP] Brian Kernighan, P.J. Plauger, <span class=\"T11\">Software Tools in Pascal</span>, Addison Wesley, 1981",
+      "id": "abad172af2525d51",
+      "type": "paragraph"
+    },
+    {
+      "text": "[KV] <span class=\"T53\">Kerstin Voigt, Big Picture on a Small Scale, <i>[http://www.pattron.net/Pattern.aspx?Id=175 http://www.pattron.net/Pattern.aspx?Id=175]</i></span>",
+      "id": "b854830998a8e919",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MBTI] <span class=\"T73\"><i>[http://www.knowyourtype.com/mbti.html http://www.knowyourtype.com/mbti.html]</i>.</span>",
+      "id": "9e89e411e7c7ebd6",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MD] <span class=\"T53\">Michael Duell, \"Non-Software Examples of Design Patterns\", <i>[http://www.cours.polymtl.ca/inf3700/divers/nonSoftwareExample/patexamples.html http://www.cours.polymtl.ca/inf3700/divers/nonSoftwareExample/patexamples.html]</i></span>",
+      "id": "f83d4531ab93fab0",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MF] Fowler, Martin (1997). <span class=\"T11\">Analysis Patterns. Reusable Object Models</span>. Reading, MA:  Addison-Wesley Longman, Inc.",
+      "id": "62f3204f60843bf1",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MFC]  <span class=\"T4\">Moses Fincher, Caristi, \"Teams Work\", Panel at SIGCSE 2000.</span>",
+      "id": "af31f01d2b05bd40",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MG] Gorman, Burk,  Reading, Critique, Lecture, Activity, Presentation with discussion (RCLAP), <i>[http://www.pattron.net/Pattern.aspx?Id=139 http://www.pattron.net/Pattern.aspx?Id=139]</i>",
+      "id": "4a2e58d4da728d15",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MJ] Marcelo Jenkins, Design-Do-Redo-Redo pattern, <i>[http://www.pattron.net/Pattern.aspx?Id=147 http://www.pattron.net/Pattern.aspx?Id=147]</i>",
+      "id": "40d85cbaee7c5442",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MLB] Martin L. Barrett, Lecture-Examples-Activity-Student Presentation-Evaluation, <i>[http://www.pattron.net/Pattern.aspx?Id=140 http://www.pattron.net/Pattern.aspx?Id=140]</i>",
+      "id": "882f015e4c247efb",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MR] \"Mary Lynn Manns, Linda Rising, <span class=\"T11\">Fearless Change: Patterns for Introducing New Ideas,</span> Addison-Wesley, 2005, <i>[http://www.cs.unca.edu/~manns/intropatterns.html http://www.cs.unca.edu/~manns/intropatterns.html]</i>",
+      "id": "1d99a107657f1918",
+      "type": "paragraph"
+    },
+    {
+      "text": "[MS] Marianna Sipos, Active Summary, Proceedings of EuroPLoP 2002, UKV Konstanz",
+      "id": "b69c8fd6aa18e59f",
+      "type": "paragraph"
+    },
+    {
+      "text": "[PM] Phil McLaughlin, PHYSICAL ANALOGY, <i>[http://www.pattron.net/Pattern.aspx?Id=150 http://www.pattron.net/Pattern.aspx?Id=150]</i>",
+      "id": "be3c72e2c0ab471f",
+      "type": "paragraph"
+    },
+    {
+      "text": "[PPP] Pedagogical Patterns Project Home: <i>[http://www.pedagogicalpatterns.org http://www.pedagogicalpatterns.org]</i>",
+      "id": "89389fb281a41a9a",
+      "type": "paragraph"
+    },
+    {
+      "text": "[QC] Klaus Quibeldey-Cirkel, ETHOS, <i>[http://www.pattron.net/Pattern.aspx?Id=326 http://www.pattron.net/Pattern.aspx?Id=326]</i>",
+      "id": "dac93c69cd70144d",
+      "type": "paragraph"
+    },
+    {
+      "text": "[RP] Richard Pattis, Karel the Robot, Wiley, 1981",
+      "id": "a3461649542404c0",
+      "type": "paragraph"
+    },
+    {
+      "text": "[RT] Robert Teague, <span class=\"T11\">Computing Problems for Fortran Solution</span>, Canfield Press, 1972.",
+      "id": "f61c7fb80b52d340",
+      "type": "paragraph"
+    },
+    {
+      "text": "[SH] Sollman and Heinze, <span class=\"T11\">Visionsmanagement: Erfolg als vorausgedachtes Ergebnis (Vision Management: Success as a pre-thought result)</span>, Orell Fussli, 1994.",
+      "id": "525cb111bd34c257",
+      "type": "paragraph"
+    },
+    {
+      "text": "[SWOT] <i>[http://en.wikipedia.org/wiki/SWOT_analysis http://en.wikipedia.org/wiki/SWOT_analysis]</i>",
+      "id": "1222c870529b1780",
+      "type": "paragraph"
+    },
+    {
+      "text": "[TDC] Tim DeClue, Gagne'-Ausbel Pattern of Lecture, <i>[http://www.pattron.net/Pattern.aspx?Id=153 http://www.pattron.net/Pattern.aspx?Id=153]</i>",
+      "id": "df1e069fee556f99",
+      "type": "paragraph"
+    },
+    {
+      "text": "[TS] K. Todd Stevens, Experiences Teaching Software Engineering for the First Time, ITiCSE 2001 Proceedings. Canterbury, England, June 2001, pg. 77",
+      "id": "3eec41596d60068e",
+      "type": "paragraph"
+    },
+    {
+      "text": "[VF] Markus Völter, Astrid Fricke, SEMINARS, <i>[http://www.voelter.de/seminars http://www.voelter.de/seminars]</i>",
+      "id": "42dae486534f26e0",
+      "type": "paragraph"
+    },
+    {
+      "text": "[WNCD] <span class=\"T11\">Webster's New Collegiate Dictionary</span>. (1959).  G &amp; C Merriam Co.",
+      "id": "6f4030881905ee7e",
+      "type": "paragraph"
+    }
+  ]
+}
