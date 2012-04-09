@@ -4,7 +4,7 @@
 
 <p>This script is a modificatiion of the one Ward Cunningham used to translate the patterns of practice files from XHTML to JSON. </p>
 
-<p>The script html-json.rb will translate a minimally processed set of text files into pages suitable for SFW as well as a summary (index) page. It requires properly formatted html input, but doesn't need much refinement. It processes paragraphs, preformatted text, and images. It will optionally tranform either bold or italic text into wiki links. So &lt;b>foo&lt;/b> becomes [[foo]], for example. </p>
+<p>The script html-json.rb will translate a minimally processed set of text files into pages suitable for SFW as well as create a summary (index) page. It requires properly formatted html input, but doesn't need much refinement. It processes paragraphs, preformatted text, and images. It will optionally tranform either bold or italic text into wiki links. So &lt;b>foo&lt;/b> becomes [[foo]], for example. Wiki page titles are taken from filenames - see below.</p>
 
 <p> A correctly formatted &lt;pre> ...&lt;/pre> tag will be wrapped in a paragraph but otherwise preserved. Likewise headings will be preserved in the same way. </p>
 
@@ -22,13 +22,15 @@
 
 <p> Note, as well, that it requires strict html as the parser is an XML parser. This means, for example, that break tags need to be: &lt;br/>. The parser gets very confused and produces garbage if you give it lenient input. Every tag needs to be closed properly. </p>
 
-<p> Note also that if your headings, pre, hr, code, list, and table tags already appear in paragraphs (they normally don't), they will be doubled in the output. I will likely fix this in the future. </p>
+<p> Note also that if your headings, pre, hr, code, list, and table tags already appear in paragraphs (they normally don't), they will be doubled in the output. I will likely fix this in the future. UPDATE: fixed</p>
 
 <p>If you already have correctly formatted html files, you don't need to do anything except attend to the filenames so you get the page titles you desire. You should rename any input file so that it's filename is a captialized bumpy word with an html extension. For example mumblefoo.txt might become MumbleFoo.html before processing. The page title will then be Mumble Foo.  </p>
 
 <p>The script is intended to be run from the scripts folder. The script has three arguments. -b will transform text within bold tags into wiki links. -i will transform italic tags into links. If you use both it will work, unless you have text that is both bold and italic. Then the [[ ... ]] will be added twice. It will work, but look ugly.</p>
 
 <p>If you use the -t argument, then the following arg is a string with the title of the summary page. If you don't want a summary, use -t '' as an argument pair. I ran the sample inputs with -t 'Index Of Files'</p>
+
+<p> The -h option will print the options. </p>
 
 <p>The script reads a set of files from ./scripts/originals and produces its output into ../pages (which must exist). The summary, if any, is also placed there. The originals are not modified. </p>
 

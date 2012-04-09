@@ -63,12 +63,22 @@ def convert title, doc
   	elem.replace doc.create_element('i', "[#{elem.attr('href')} #{shrinkWhitespace(elem.content)}]")
   end
   
-  # If any of these are already in paragraphs, they will be doubled in output
+  # capture these in paragraphs if not already in paragraphs
   retain = doc.css('h1') + doc.css('h2') + doc.css('h3') + doc.css('h4') + doc.css('h5') + doc.css('h6') + doc.css('pre') + doc.css('code') + doc.css('hr') + doc.css('ul') + doc.css('ol') +doc.css('table')
   
+	  def inPara node
+		while node != nil and node.name != 'document' and node.name != 'p'
+			node = node.parent
+		end
+		node != nil and node.name == 'p'
+	  end
+  
   retain.each do |elem|
-  	elem.replace doc.create_element('p', elem)
+  	if ! inPara(elem)
+  		elem.replace doc.create_element('p', elem)
+  	end
   end
+    
   story = doc.css('p').collect do |elem|
     paragraph clean(elem.inner_html)
   end
@@ -89,6 +99,11 @@ for i in 0...ARGV.length
 		@italics = true
 	elsif ARGV[i] == '-t'
 		@sumaryTitle = ARGV[i+1]
+	elsif ARGV[i] == '-h'
+		puts '-b to transform bold to wiki link'
+		puts '-i to transform italic to wiki link'
+		puts '-t \'name\' to produce a summary with given name'
+		puts '-h produces this text'
 	end
 end
 
