@@ -1,0 +1,24 @@
+{
+  "title": "table",
+  "journal": [
+    {
+      "id": "38741900433f070d",
+      "type": "create",
+      "item": {
+        "title": "table"
+      }
+    }
+  ],
+  "story": [
+    {
+      "text": "&lt;table width=\"80%\" border=\"1\" align=\"center\"&gt;\n  &lt;tbody&gt;\n    &lt;tr&gt;\n      &lt;td&gt;One  | two | three &lt;/td&gt;\n    &lt;/tr&gt;\n  &lt;/tbody&gt;\n&lt;/table&gt;",
+      "id": "90bd8e4426085338",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;ul&gt;\n  &lt;li&gt; onzer  &lt;/li&gt;\n  &lt;li&gt; twozer&lt;/li&gt;\n  &lt;li&gt; treezer &lt;/li&gt;\n\t &lt;ul&gt;\n\t  &lt;li&gt; foo &lt;/li&gt;\n\t  &lt;li&gt; bar &lt;/li&gt;\n\t  &lt;li&gt; bas &lt;/li&gt;\n\t &lt;/ul&gt;\n &lt;li&gt; quatrezer  &lt;/li&gt;\n  &lt;li&gt;funfzer &lt;/li&gt;  \n&lt;/ul&gt;",
+      "id": "417f2eddf050977f",
+      "type": "paragraph"
+    }
+  ]
+}

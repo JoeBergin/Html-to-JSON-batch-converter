@@ -1,0 +1,20 @@
+Some caveats. 
+
+The wiki is not intended to look like a standard web page. In many ways complex markup gets in the way of usefulness. The value of the wiki is in its content, editability, and sharing, not its presentation. 
+
+HOWEVER...
+
+This was done to help authors move existing ordinary text and simple html into a format the Smallest Federated Wiki can present. While it requires correctly formatted html input, that can be easily produced with a tool like Markdown if you keep it simple, as you should. 
+
+On the other hand, if you have html, this tries to capture as much of your content as possible (within the limitations of the tools and my time to refine this). It will aapture lists, tables, headings, etc, that should probably not appear in the wiki, but might not do too much damage to the experience if used in limited ways. For an interactive document (one meant to be updated by the community - i.e. federated) such complex markup gets in the way. 
+
+Note that this currently assumes you have accesss to the server for SFW, as it simply writes files that the wiki knows how to present. It is a batch processor for background application. The produced files may need some tweaking when first presented. 
+
+---
+Note the limitations of the tool. It tries to capure most tags within paragraphs. Many tags are normally NOT put in paragraph markers in normal use (headings, tables, ...) and so we modify the document tree before translation to add them. However, if the markup already has done this, we do it again. Your content will appear twice in this case. 
+
+It won't deal with framesets, but if you have the html for the individual frames it will handle them. 
+
+If you get garbage from this, try to run your html through a validator. 
+
+Two good projects might be (1) "flatten" tables. i.e. pull out the content for simpler presentation. (b) transform lists into multiple paragraphs, one per list item. 

@@ -63,7 +63,8 @@ def convert title, doc
   	elem.replace doc.create_element('i', "[#{elem.attr('href')} #{shrinkWhitespace(elem.content)}]")
   end
   
-  retain = doc.css('h1') + doc.css('h2') + doc.css('h3') + doc.css('h4') + doc.css('h5') + doc.css('h6') + doc.css('pre') + doc.css('code') + doc.css('hr') + doc.css('ul') + doc.css('ol')
+  # If any of these are already in paragraphs, they will be doubled in output
+  retain = doc.css('h1') + doc.css('h2') + doc.css('h3') + doc.css('h4') + doc.css('h5') + doc.css('h6') + doc.css('pre') + doc.css('code') + doc.css('hr') + doc.css('ul') + doc.css('ol') +doc.css('table')
   
   retain.each do |elem|
   	elem.replace doc.create_element('p', elem)
