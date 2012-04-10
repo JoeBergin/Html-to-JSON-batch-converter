@@ -23,14 +23,17 @@ def url text
   text.gsub(/(http:\/\/)?([a-zA-Z0-9._-]+?\.(net|com|org|edu)(\/[^ )]+)?)/,'[http:\/\/\2 \2]')
 end
 
+# create the journal "create" entry
 def create title
   {'type' => 'create', 'id' => random, 'item' => {'title' => title}}
 end 
 
+# create a wiki paragraph
 def paragraph text
   {'type' => 'paragraph', 'text' => text, 'id' => random()}
 end
 
+# create a wiki page (json) with empty journal
 def page title, story
   page = {'title' => title, 'story' => story, 'journal' => [create(title)]}
   File.open("../pages/#{slug(title)}", 'w') do |file| 
@@ -43,16 +46,18 @@ def convert title, doc
   puts title
   
   # transform images into manual instructions
-  doc.css('img').each do |elem|  	
-  		elem.replace doc.create_element('p', "Insert image: \"" + elem.attr('src') + "\" here.")
+  doc.css('img').each do |elem| 
+    container = 'p'
+    container = 'text' if inParagraph?(elem)
+  	elem.replace doc.create_element(container, "Insert image: \"" + elem.attr('src') + "\" here.")
   end
   
   # anchors. local-file to wiki page refs, global-http to external refs
   doc.css('a').each do |elem|
   	if elem.content != nil and elem.content.strip.length > 0
-  		if elem.attr('href').lstrip.index(".") == 0
+  		if elem.attr('href').lstrip.index(".") == 0 #local
   			elem.replace doc.create_element('text',"[[#{shrinkWhitespace(elem.content.strip)}]]")
-  		else
+  		else #global
   			elem.replace doc.create_element('text', "[#{elem.attr('href')} #{shrinkWhitespace(elem.content.strip)}]")
   		end
   	else 
@@ -106,13 +111,25 @@ def convert title, doc
   }
   
   if @flatten
-    @lists = Nokogiri::XML::NodeSet.new(doc) # empty set
+    @lists = doc.css('dl') # Nokogiri::XML::NodeSet.new(doc) # empty set
   else
-  	@lists = doc.css('ul') + doc.css('ol')
+  	@lists = doc.css('ul') + doc.css('ol') + doc.css('dl')
   end
   
   # capture these in paragraphs if not already in paragraphs
-  retain = doc.css('h1') + doc.css('h2') + doc.css('h3') + doc.css('h4') + doc.css('h5') + doc.css('h6') + doc.css('pre') + doc.css('code') + doc.css('hr') + @lists + doc.css('table')
+  @retain = 
+  	doc.css('h1') + 
+  	doc.css('h2') + 
+  	doc.css('h3') + 
+  	doc.css('h4') + 
+  	doc.css('h5') + 
+  	doc.css('h6') + 
+  	doc.css('pre') + 
+  	doc.css('code') + 
+  	doc.css('hr') + 
+  	doc.css('table') + 
+  	doc.css('blockquote') + 
+  	@lists
   
 	  def inParagraph? node
 		while node != nil and node.name != 'document' and node.name != 'p'
@@ -121,7 +138,7 @@ def convert title, doc
 		node != nil and node.name == 'p'
 	  end
   
-  retain.each do |elem|
+  @retain.each do |elem|
   	if ! inParagraph?(elem)
   		elem.replace doc.create_element('p', elem)
   	end
@@ -129,33 +146,36 @@ def convert title, doc
   
   # apply styles to spans
   doc.css('span').each do |elem|
-  	c = elem.attr("class")
-  	w = @spanStyles[c]
-  	if w != nil
-  		elem.content = doc.create_element(w, elem.content)
-#  		puts 'trans ' + c + ' to ' + w
+  	classAttr = elem.attr("class")
+  	which = @spanStyles[classAttr]
+  	if which != nil
+  		elem.content = doc.create_element(which, elem.content)
+#  		puts 'trans ' + classAttr + ' to ' + which
   	end
   end
   
   # make links of bold/italics (after span processing!!!)
-  if @bold
-	  doc.css('b').each do |elem|
+  if @italics and @bold
+	  (doc.css('i') + doc.css('b')).each do |elem|
+		elem.content = "[[#{elem.content}]]" 
+	  end  
+  elsif @italics # just italics
+	  doc.css('i').each do |elem|
 		elem.content = "[[#{elem.content}]]" 
 	  end
-  end 
-  if @italics
-	  doc.css('i').each do |elem|
+  elsif @bold #just bold
+	  doc.css('b').each do |elem|
 		elem.content = "[[#{elem.content}]]" 
 	  end
   end
   
   # apply styles to paragraphs
   doc.css('p').each do |elem|
-  	c = elem.attr("class")
-  	w = @paragraphStyles[c]
-  	if w != nil
-  		elem.content = doc.create_element(w, elem.content)
-#  		puts 'trans ' + c + ' to ' + w
+  	classAttr = elem.attr("class")
+  	which = @paragraphStyles[classAttr]
+  	if which != nil
+  		elem.content = doc.create_element(which, elem.content)
+#  		puts 'trans ' + classAttr + ' to ' + which
   	end
   end
   
@@ -170,6 +190,7 @@ def convert title, doc
   story = doc.css('p').collect do |elem|
     paragraph clean(elem.inner_html)
   end
+  
   page title, story
   
   # update the summary
