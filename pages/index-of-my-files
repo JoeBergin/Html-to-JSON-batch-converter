@@ -1,0 +1,44 @@
+{
+  "title": "Index of My Files",
+  "journal": [
+    {
+      "id": "3a70fcff2e425105",
+      "type": "create",
+      "item": {
+        "title": "Index of My Files"
+      }
+    }
+  ],
+  "story": [
+    {
+      "text": "[[Critique]]",
+      "id": "b3c2f93b84402d82",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Pedagogical Pattern References]]",
+      "id": "20c24e45fefbde57",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Read Me]]",
+      "id": "b7f3ab28a794a5c2",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Table Trial]]",
+      "id": "753ab870be6e98c2",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Test File]]",
+      "id": "74f91ebab7e014fa",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[Three Pedagogical Patterns]]",
+      "id": "2f6a1b8093e64c0f",
+      "type": "paragraph"
+    }
+  ]
+}

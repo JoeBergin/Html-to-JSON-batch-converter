@@ -1,0 +1,99 @@
+{
+  "title": "Test File",
+  "journal": [
+    {
+      "id": "592bcdfb1cb65837",
+      "type": "create",
+      "item": {
+        "title": "Test File"
+      }
+    }
+  ],
+  "story": [
+    {
+      "text": "&lt;h1&gt; These are the times&lt;/h1&gt;",
+      "id": "18ed0f39b0135fb5",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;h2&gt; That try men's patience&lt;/h2&gt;",
+      "id": "a1afa1ca1823d9e0",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;h3&gt; But Ben Franklin with his silly kite&lt;/h3&gt;",
+      "id": "7e051f18ed19e88b",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;h4&gt; Has us electirfied - or not &lt;/h4&gt;",
+      "id": "a8553f561fdaea8c",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;h5&gt; But who knows if &lt;/h5&gt;",
+      "id": "51167d81ed606dc4",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;h6&gt; Anyone cares a mite &lt;/h6&gt;",
+      "id": "71c8f427674ce1bb",
+      "type": "paragraph"
+    },
+    {
+      "text": " Trials <span class=\"T4\">is all</span> it is.",
+      "id": "b690449872cd09f1",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;hr/&gt;",
+      "id": "76e267d0c921197f",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;table width=\"80%\" border=\"1\" align=\"center\"&gt;\n\t  &lt;tbody&gt;\n\t\t&lt;tr&gt;\n\t\t  &lt;td&gt;\n\t\t\t  Dedication | Teaching Notes | Table of Contents |Simulator \n\t\t  &lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t\t&lt;tr&gt;\n\t\t  &lt;td&gt;\n\t\t\t   Use with JJ | Use with BlueJ | Extras | Goodies | Feedback\n\t\t  &lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t  &lt;/tbody&gt;\n\t&lt;/table&gt;",
+      "id": "21d51d348ca79c22",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;ul&gt;\n  &lt;li&gt; onzer  &lt;/li&gt;\n  &lt;li&gt; twozer&lt;/li&gt;\n  &lt;li&gt; treezer &lt;/li&gt;\n\t &lt;ul&gt;\n\t  &lt;li&gt; foo &lt;/li&gt;\n\t  &lt;li&gt; bar &lt;/li&gt;\n\t  &lt;li&gt; bas &lt;/li&gt;\n\t &lt;/ul&gt;\n &lt;li&gt; quatrezer  &lt;/li&gt;\n  &lt;li&gt;funfzer &lt;/li&gt;\n  \n&lt;/ul&gt;",
+      "id": "323ec3830c77e649",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;ol&gt;\n  &lt;li&gt; These are the times &lt;/li&gt;\n  &lt;li&gt; That try men's patience  &lt;/li&gt;\n  &lt;li&gt; Has us electrofriiied - or not &lt;/li&gt;\n  &lt;li&gt;  But who knows if   &lt;/li&gt;\n  &lt;li&gt;Personal web site: &lt;text&gt;[http://jbergin.com http://jbergin.com]&lt;/text&gt; &lt;/li&gt;\n  \n&lt;/ol&gt;",
+      "id": "b450fd5179e99ffe",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;ul&gt;\n  &lt;li&gt;&lt;font size=\"+1\"&gt;&lt;text&gt;[http://csis.pace.edu/%7Ebergin/XPWorkshop/ XP in the First Course Workshop]&lt;/text&gt; at OOPSLA 2003&lt;/font&gt;&lt;/li&gt;\n  &lt;li&gt;&lt;font size=\"+1\"&gt;&lt;text&gt;[http://csis.pace.edu/~bergin/towardEduPLoP/ Toward EduPLoP]&lt;/text&gt; Workshop at OOPSLA 2003 (Contact me to become a member of the feasibility discussion group.)&lt;/font&gt;&lt;/li&gt;\n  &lt;li&gt;&lt;text&gt;[http://www.cse.buffalo.edu/faculty/alphonce/KillerExamples/OOPSLA2003/ Killer Examples for Design Patterns and Objects First]&lt;/text&gt;&lt;font size=\"+1\"&gt; Workshop at OOPSLA 2003&lt;/font&gt;&lt;/li&gt;\n  &lt;li&gt;&lt;font size=\"+1\"&gt;Column Editor for \"Curricular Patterns\" in ACM SIGPLAN Notices. Contact me if you have an interesting article you would like considered for the column. &lt;/font&gt;&lt;/li&gt;\n  &lt;li&gt;&lt;font size=\"+1\"&gt;&lt;p&gt;Insert image: \"new2.gif\" here.&lt;/p&gt;&lt;/font&gt;&lt;font size=\"+1\"&gt;&lt;text&gt;[[OOPSLA 2007 Educators' Symposium]]&lt;/text&gt; -- Results, Slides, etc &lt;/font&gt;&lt;/li&gt;\n  &lt;li&gt;&lt;font size=\"+1\"&gt;&lt;text&gt;[http://dreamsongs.com/Feyerabend/Extravagaria.html Extravigaria Workshop]&lt;/text&gt; at OOPSLA 2002 (&lt;font color=\"red\"&gt;Art and Technology&lt;/font&gt;)&lt;/font&gt;&lt;/li&gt;\n&lt;/ul&gt;",
+      "id": "b83418a735def217",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;pre&gt; &lt;code&gt;\n\nbegin\n    mumbleFoo();\nend\n\n&lt;/code&gt;&lt;/pre&gt;",
+      "id": "0e451866ae6d1f3e",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;code&gt;\n  mumble\n      bar\n        bas\n&lt;/code&gt;",
+      "id": "73b457d955326d94",
+      "type": "paragraph"
+    },
+    {
+      "text": "&lt;pre&gt;\n  mumble\n      bar\n        bas\n&lt;/pre&gt;",
+      "id": "450159863757064b",
+      "type": "paragraph"
+    },
+    {
+      "text": "Insert image: \"barbarbar.gif\" here.",
+      "id": "da01d31f12987f9c",
+      "type": "paragraph"
+    },
+    {
+      "text": "<text>[http://jbergin.com Joe Bergin's Web Site]</text>",
+      "id": "15262ef5fdee9fcf",
+      "type": "paragraph"
+    }
+  ]
+}
