@@ -35,6 +35,8 @@
 
 <p>If you use the -t argument, then the following arg is a string with suffix of the title of the summary page. By default no index page is produced. I ran the sample inputs with -t 'My Files'. The string "Index of" is prepended to your argument consistent with the naming concept above. </p>
 
+<p> If you use the -j option, an entry will be put into the journal for each paragraph added. Otherwise, the journal will only show the create of the page.</p>
+
 <p> The -h option will print the options. </p>
 
 <p>The script reads a set of files from ./scripts/originals and produces its output into ../pages (which must exist). The summary, if any, is also placed there. The originals are not modified. </p>

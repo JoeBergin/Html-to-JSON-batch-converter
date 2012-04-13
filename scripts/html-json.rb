@@ -41,6 +41,15 @@ def page title, story
   end
 end
 
+# create a wiki page (json) with provided journal
+def pageWithJournal title, story, journal
+  page = {'title' => title, 'story' => story, 'journal' => journal}
+  File.open("../pages/#{slug(title)}", 'w') do |file| 
+    file.write JSON.pretty_generate(page)
+  end
+end
+
+
 # The main conversion routine
 def convert title, doc
   puts title
@@ -191,14 +200,39 @@ def convert title, doc
     paragraph clean(elem.inner_html)
   end
   
-  page title, story
+  journal = [create title]
+  if @fullJournal
+  	story.each do |para|
+  	journal << {
+  		'type' => 'add',
+  		'id' => para['id'],
+  		'item' => para
+  	}
+  	pageWithJournal title, story, journal
+  	end
+  else
+  	page title, story
+  end
+  
   
   # update the summary
   @summary << paragraph("[[#{title}]]")
 end
 
 def summarize
-  page "Index of " + @sumaryTitle, @summary
+  if @fullJournal
+  	summaryJournal = [create "Index of " + @sumaryTitle]
+  	@summary.each do |para|
+  	summaryJournal << {
+  		'type' => 'add',
+  		'id' => para['id'],
+  		'item' => para
+  		}  	
+  	end
+  	pageWithJournal "Index of " + @sumaryTitle, @summary, summaryJournal
+  else
+  	page "Index of " + @sumaryTitle, @summary
+  end
 end
 
 def warn s
@@ -215,6 +249,7 @@ end
 
 #############
 @flatten = true
+@fullJournal = false
 @summary = []
 @bold = false
 @italics = false
@@ -223,6 +258,8 @@ end
 for i in 0...ARGV.length 
 	if ARGV[i] == '-b'
 		@bold = true
+	elsif ARGV[i] == '-j'
+		@fullJournal = true
 	elsif ARGV[i] == '-f'
 		@flatten = false
 	elsif ARGV[i] == '-i'
@@ -233,6 +270,7 @@ for i in 0...ARGV.length
 		puts '-b to transform bold to wiki link'
 		puts '-f to prevent flattening of lists'
 		puts '-i to transform italic to wiki link'
+		puts '-j to produce a full journal in the output files'
 		puts '-t \'name\' to produce a summary with given suffix'
 		puts '-h produces this text'
 		exit

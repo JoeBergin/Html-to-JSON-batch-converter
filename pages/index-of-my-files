@@ -2,7 +2,7 @@
   "title": "Index of My Files",
   "journal": [
     {
-      "id": "0919cfb9fefa03f0",
+      "id": "ed7ddff9cc9c1591",
       "type": "create",
       "item": {
         "title": "Index of My Files"
@@ -12,32 +12,37 @@
   "story": [
     {
       "text": "[[Critique]]",
-      "id": "4dc9ce5044e89c1e",
+      "id": "ff963b0657489b08",
       "type": "paragraph"
     },
     {
       "text": "[[Pedagogical Pattern References]]",
-      "id": "6b40ec8809c5d9dc",
+      "id": "924dbe69c831186f",
       "type": "paragraph"
     },
     {
       "text": "[[Read Me]]",
-      "id": "76f1e578ad042212",
+      "id": "8fd9c49fc13797c5",
+      "type": "paragraph"
+    },
+    {
+      "text": "[[System Of Names]]",
+      "id": "d07d6926167a6c1c",
       "type": "paragraph"
     },
     {
       "text": "[[Table Trial]]",
-      "id": "5773dedd51d91a1a",
+      "id": "705ea8d4cbc3b4bf",
       "type": "paragraph"
     },
     {
       "text": "[[Test File]]",
-      "id": "074bda7dc707279c",
+      "id": "b13a6b02d3f626d2",
       "type": "paragraph"
     },
     {
       "text": "[[Three Pedagogical Patterns]]",
-      "id": "86d53b9f74054588",
+      "id": "67df301f2386d0bf",
       "type": "paragraph"
     }
   ]
