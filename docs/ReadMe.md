@@ -1,3 +1,5 @@
+<html><body>
+
 <p>Here we reformat minimal, but strict, HTML to JSON and publish it as an instance of the Smallest Federated Wiki.</p>
 
 <p>It will read a set of files with names such as FooBas.html and produce more or less equivalent wiki pages with titles such as Foo Bas. </p>
@@ -39,6 +41,8 @@
 
 <p> If you use the -j option, an entry will be put into the journal for each paragraph added. Otherwise, the journal will only show the create of the page.</p>
 
+<p>The -p option will capture the html page title as an h1 heading in the json document.</p>
+
 <p> The -h option will print the options. </p>
 
 <p>The script reads a set of files from ./scripts/originals and produces its output into ../pages (which must exist). The summary, if any, is also placed there. The originals are not modified. </p>
@@ -48,3 +52,5 @@
 <p>If you have a straight text file to process, do this first. Use markdown (http://daringfireball.net/projects/markdown/) to add paragraph markers, or do it by hand. Markdown transforms blank lines into paragraph breaks and correctly formats them. Assure that your img tags are correctly fomatted (strict): &lt;img src="mumble.gif"/>. Add &lt;html>&lt;body> to the beginning and &lt;/body>&lt;/html> to the end. The file should now be ok for this script to process. Don't bother with any other markdown options than blank lines, or the produced json may not work well in the wiki. Code fragments, headings, and other things specifically mentioned here are ok. </p>
 
 <p> Ignore the content distributed with this (originals folder). They are just test files I use to develop this. The references are from my pedagogical patterns book - in prep. </p>
+
+</body></html>

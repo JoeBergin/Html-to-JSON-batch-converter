@@ -69,6 +69,11 @@ end
 def convert title, doc
   puts title
   
+  if @capturePageTitle
+	  doc.css('title').each do |elem|
+		elem.replace doc.create_element('p', doc.create_element('h1',elem.content))
+	  end
+  end
   # transform images into manual instructions
   doc.css('img').each do |elem| 
     container = 'p'
@@ -98,7 +103,7 @@ def convert title, doc
   "P29" => 'i',
   "P30" => 'i',
   'P34' => 'b',
-  "P37" => 'i',
+  "P37" => 'small',
   'P41' => 'i',
   'P42' => 'i',
   'P43' => 'i',
@@ -263,12 +268,15 @@ end
 @italics = false
 @sumaryTitle = nil
 @deBump = false
+@capturePageTitle = false
 
 for i in 0...ARGV.length 
 	if ARGV[i] == '-b'
 		@bold = true
 	elsif ARGV[i] == '-d'
 		@deBump = true
+	elsif ARGV[i] == '-p'
+		@capturePageTitle = true
 	elsif ARGV[i] == '-j'
 		@fullJournal = true
 	elsif ARGV[i] == '-f'
@@ -283,6 +291,7 @@ for i in 0...ARGV.length
 		puts '-f to prevent flattening of lists'
 		puts '-i to transform italic to wiki link'
 		puts '-j to produce a full journal in the output files'
+		puts '-p to capture the html page title as a paragraph'
 		puts '-t \'name\' to produce a summary with given suffix'
 		puts '-h produces this text'
 		exit
