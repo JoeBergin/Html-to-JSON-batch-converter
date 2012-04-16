@@ -58,6 +58,13 @@ def pageWithJournal title, story, journal
 end
 
 
+def inParagraph? node
+	while node != nil and node.name != 'document' and node.name != 'p'
+		node = node.parent
+	end
+	node != nil and node.name == 'p'
+end
+  
 # The main conversion routine
 def convert title, doc
   puts title
@@ -66,7 +73,7 @@ def convert title, doc
   doc.css('img').each do |elem| 
     container = 'p'
     container = 'text' if inParagraph?(elem)
-  	elem.replace doc.create_element(container, "Insert image: \"" + elem.attr('src') + "\" here.")
+  	elem.replace doc.create_element(container, "Insert image: \'" + elem.attr('src') + "\' here.")
   end
   
   # anchors. local-file to wiki page refs, global-http to external refs
@@ -147,13 +154,6 @@ def convert title, doc
   	doc.css('table') + 
   	doc.css('blockquote') + 
   	@lists
-  
-	  def inParagraph? node
-		while node != nil and node.name != 'document' and node.name != 'p'
-			node = node.parent
-		end
-		node != nil and node.name == 'p'
-	  end
   
   @retain.each do |elem|
   	if ! inParagraph?(elem)

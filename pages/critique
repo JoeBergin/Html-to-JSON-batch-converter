@@ -2,7 +2,7 @@
   "title": "Critique",
   "journal": [
     {
-      "id": "8ad9841401f7085e",
+      "id": "dba5cb8ce021b214",
       "type": "create",
       "item": {
         "title": "Critique"
@@ -12,67 +12,67 @@
   "story": [
     {
       "text": "&lt;h3 class=\"P86\" id=\"heading_id_32\"&gt;&lt;text&gt; &lt;/text&gt;Critique *&lt;/h3&gt;",
-      "id": "c250d89d79c4ce51",
+      "id": "be1b1c79ec62282a",
       "type": "paragraph"
     },
     {
       "text": "&lt;i&gt;Patterns for Active Learning&lt;/i&gt;",
-      "id": "bb3377819a373f87",
+      "id": "1990bd7079a3115f",
       "type": "paragraph"
     },
     {
       "text": "&lt;i&gt;This pattern was originated by Mary Gorman and Susan Burk as the &amp;lt;i&amp;gt;Reading, Critique, Lecture, Activity, Presentation with discussion&amp;lt;/i&amp;gt; pattern [MG].&lt;/i&gt;",
-      "id": "856cce59a367dfe4",
+      "id": "01668bf2acd5ca4f",
       "type": "paragraph"
     },
     {
       "text": "You have introduced some modeling techniques and you want your students to apply them to real-world examples.",
-      "id": "5df82776624c7cdc",
+      "id": "b63c6c02a0664a27",
       "type": "paragraph"
     },
     {
       "text": "&lt;center&gt;***&lt;/center&gt;",
-      "id": "285de6ce8eb58a1b",
+      "id": "fdd1facde1c64427",
       "type": "paragraph"
     },
     {
       "text": "<span class=\"T7\">&lt;b&gt;You want your students to use and apply principles of modeling to substantial examples, but they are not yet proficient enough to do the modeling for themselves.&lt;/b&gt;</span> Creating models from scratch is a very challenging activity. While novices may be able to create simple models, in order to deepen their learning it is desirable to expose them to more complex situations.",
-      "id": "b32e2090ba596337",
+      "id": "93c802f77499049a",
       "type": "paragraph"
     },
     {
       "text": "&lt;center&gt;***&lt;/center&gt;",
-      "id": "33f3cdfbfb219134",
+      "id": "c102e101d95c5305",
       "type": "paragraph"
     },
     {
       "text": "&lt;b&gt;Therefore give students a model created by someone else and ask them to determine its completeness and correctness.&lt;/b&gt;",
-      "id": "bc189c5811d2de16",
+      "id": "639821cf070b956b",
       "type": "paragraph"
     },
     {
       "text": "The students use the material provided about principles, quality assurance etc to critique the model based on their own knowledge, and to consider how to improve it, or correct any faults. Alternatively the critiquing sample could be two options, and you ask students to select the better alternative or, if needed, to build a third model. This is an opportunity for students to evaluate their own proficiency at probing the details of a model, find problems, and define appropriate solutions. Because they are not starting from scratch, it provides an easier route into complex problems. The model could be a <text>[[Fixer Upper]]</text> or <text>[[Larger Than Life]]</text>.",
-      "id": "a316d145673efe6e",
+      "id": "6f99b6687dd6a83a",
       "type": "paragraph"
     },
     {
       "text": "&lt;center&gt;***&lt;/center&gt;",
-      "id": "4dd46e2c76ea70bc",
+      "id": "900b39b38ba2ed89",
       "type": "paragraph"
     },
     {
       "text": "The critique examples must be carefully constructed to encompass the appropriate variations. These examples should be real world examples, not being developed by peers. You should not underestimate the amount of time needed to build the examples. Occasionally, after critiquing the first model, some of the students express a preference for critiquing in a team setting; you might want to use <text>[[Student Design Sprint]]</text> for setting up teams. Those students can then critique in pairs or small teams, while allowing those students who would prefer to perform the critique on their own to work alone. The activity can be customized to the students' specific business domain. This requires pre-delivery definition of the business area by the client and the instructor, to control scope.",
-      "id": "cf1c310f0402314f",
+      "id": "cad0ea64a75af453",
       "type": "paragraph"
     },
     {
       "text": "This pattern could be used in conjunction with any lecture, discussion or activity-based pattern.",
-      "id": "ba6764c93ed8caf6",
+      "id": "1a82f29c39250ac9",
       "type": "paragraph"
     },
     {
       "text": "&lt;i&gt;This pattern has evolved as we have shaped and re-shaped our Advanced Object-Oriented Analysis course yet it is not inherently restricted to object-oriented modeling training. It could certainly be generalized and applied to many other diverse training topics.&lt;/i&gt;",
-      "id": "710f889570ecfe92",
+      "id": "34b2900c92bd0ad0",
       "type": "paragraph"
     }
   ]

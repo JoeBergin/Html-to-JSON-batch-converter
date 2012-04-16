@@ -2,7 +2,7 @@
   "title": "Test File",
   "journal": [
     {
-      "id": "32f2c78f5756b3fb",
+      "id": "ec0d3acee454f599",
       "type": "create",
       "item": {
         "title": "Test File"
@@ -12,182 +12,182 @@
   "story": [
     {
       "text": "&lt;h1&gt; These are the times&lt;/h1&gt;",
-      "id": "f77af2cafbce3a75",
+      "id": "047824720405d4eb",
       "type": "paragraph"
     },
     {
       "text": "&lt;h2&gt; That try men's patience&lt;/h2&gt;",
-      "id": "511d0dd15163e9b0",
+      "id": "545b4c0aba752482",
       "type": "paragraph"
     },
     {
       "text": "&lt;h3&gt; But Ben Franklin with his silly kite&lt;/h3&gt;",
-      "id": "ea9a1aec73a34944",
+      "id": "be0b083c5aa8ed09",
       "type": "paragraph"
     },
     {
       "text": "&lt;h4&gt; Has us electirfied - or not &lt;/h4&gt;",
-      "id": "8e71e774c24fb7bb",
+      "id": "1c3a506d540faa87",
       "type": "paragraph"
     },
     {
       "text": "&lt;h5&gt; But who knows if &lt;/h5&gt;",
-      "id": "5fd79cc8455f3ce7",
+      "id": "22afbc0c88b00c49",
       "type": "paragraph"
     },
     {
       "text": "&lt;h6&gt; Anyone cares a mite &lt;/h6&gt;",
-      "id": "916362a8f6f4a53c",
+      "id": "e16e3d08211fe615",
       "type": "paragraph"
     },
     {
       "text": " Trials <span class=\"T4\">is all</span> it is.",
-      "id": "836769b77bff4728",
+      "id": "1b9a648d590257f7",
       "type": "paragraph"
     },
     {
       "text": "&lt;hr/&gt;",
-      "id": "334565dcf988b20f",
+      "id": "f62ef5451214860c",
       "type": "paragraph"
     },
     {
       "text": "&lt;table width=\"80%\" border=\"1\" align=\"center\"&gt;\n\t  &lt;tbody&gt;\n\t\t&lt;tr&gt;\n\t\t  &lt;td&gt;\n\t\t\t  Dedication | Teaching Notes | Table of Contents |Simulator \n\t\t  &lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t\t&lt;tr&gt;\n\t\t  &lt;td&gt;\n\t\t\t   Use with JJ | Use with BlueJ | Extras | Goodies | Feedback\n\t\t  &lt;/td&gt;\n\t\t&lt;/tr&gt;\n\t  &lt;/tbody&gt;\n\t&lt;/table&gt;",
-      "id": "75a1a7a982dc0eb7",
+      "id": "a1f34a8298e88fcb",
       "type": "paragraph"
     },
     {
       "text": " onzer  ",
-      "id": "d41e4cf6e490a7e5",
+      "id": "16546b6fd1805613",
       "type": "paragraph"
     },
     {
       "text": " twozer",
-      "id": "0956dc2df1e10ca0",
+      "id": "28ad0af2cb6fa251",
       "type": "paragraph"
     },
     {
       "text": " treezer ",
-      "id": "97bbcd639423584d",
+      "id": "0a5fb8ebe073c74f",
       "type": "paragraph"
     },
     {
       "text": " foo ",
-      "id": "70c14d8a8c128a47",
+      "id": "5685b357428cceb4",
       "type": "paragraph"
     },
     {
       "text": " bar ",
-      "id": "c63a15ee54388cf9",
+      "id": "a6478a37a8bc8e56",
       "type": "paragraph"
     },
     {
       "text": " bas ",
-      "id": "e0df76bb2a15b3d6",
+      "id": "3a9919005f7f1c61",
       "type": "paragraph"
     },
     {
       "text": " quatrezer  ",
-      "id": "0555f0fe78d41e45",
+      "id": "12de12dd059802f8",
       "type": "paragraph"
     },
     {
       "text": "funfzer ",
-      "id": "1a9c1b380444ecbb",
+      "id": "c67d276b289ca1e8",
       "type": "paragraph"
     },
     {
       "text": " These are the times ",
-      "id": "13c2971d2210cd34",
+      "id": "2003068185fd4d37",
       "type": "paragraph"
     },
     {
       "text": " That try men's patience  ",
-      "id": "eed5899c615ace46",
+      "id": "329863660909804b",
       "type": "paragraph"
     },
     {
       "text": " Has us electrofriiied - or not ",
-      "id": "004490c001e30488",
+      "id": "7d6f44f58e33653f",
       "type": "paragraph"
     },
     {
       "text": "  But who knows if   ",
-      "id": "52fdd8e6cca04fc9",
+      "id": "754192ffa3dfd547",
       "type": "paragraph"
     },
     {
       "text": "Personal web site: [http://jbergin.com http://jbergin.com] ",
-      "id": "d90beaa65ae34d7a",
+      "id": "1992a34747589734",
       "type": "paragraph"
     },
     {
       "text": "[http://csis.pace.edu/%7Ebergin/XPWorkshop/ XP in the First Course Workshop] at OOPSLA 2003",
-      "id": "47845bf8bb902bd3",
+      "id": "3cc53a5035f2fdc9",
       "type": "paragraph"
     },
     {
       "text": "[http://csis.pace.edu/~bergin/towardEduPLoP/ Toward EduPLoP] Workshop at OOPSLA 2003 (Contact me to become a member of the feasibility discussion group.)",
-      "id": "6bc9fdcea721b2fe",
+      "id": "c4c98167bf2feca5",
       "type": "paragraph"
     },
     {
       "text": "[http://www.cse.buffalo.edu/faculty/alphonce/KillerExamples/OOPSLA2003/ Killer Examples for Design Patterns and Objects First] Workshop at OOPSLA 2003",
-      "id": "8904eeb8700975da",
+      "id": "eff37cf3d2ad8612",
       "type": "paragraph"
     },
     {
       "text": "Column Editor for \"Curricular Patterns\" in ACM SIGPLAN Notices. Contact me if you have an interesting article you would like considered for the column. ",
-      "id": "9acf97defcfa3e73",
+      "id": "06f3fe72b3b88544",
       "type": "paragraph"
     },
     {
-      "text": "Insert image: \"new2.gif\" here.[[OOPSLA 2007 Educators' Symposium]] -- Results, Slides, etc ",
-      "id": "a303b5a65663ac22",
+      "text": "Insert image: 'new2.gif' here.[[OOPSLA 2007 Educators' Symposium]] -- Results, Slides, etc ",
+      "id": "ccfa2571e1af0605",
       "type": "paragraph"
     },
     {
       "text": "[http://dreamsongs.com/Feyerabend/Extravagaria.html Extravigaria Workshop] at OOPSLA 2002 (Art and Technology)",
-      "id": "5e89a811e2565896",
+      "id": "db91a182beabac87",
       "type": "paragraph"
     },
     {
       "text": "&lt;blockquote&gt;\n  &lt;p&gt;\n  This is\n    a bq test\n    \n  &lt;/p&gt;\n&lt;/blockquote&gt;",
-      "id": "7c68f5c410030f6e",
+      "id": "b849a19d06753fb7",
       "type": "paragraph"
     },
     {
       "text": "&lt;pre&gt;\n  &lt;code&gt;\n\nbegin\n    mumbleFoo();\nend\n\n&lt;/code&gt;\n&lt;/pre&gt;",
-      "id": "c837c8d6962ed803",
+      "id": "d846450cf2dd394b",
       "type": "paragraph"
     },
     {
       "text": "&lt;code&gt;\n  mumble\n      bar\n        bas\n&lt;/code&gt;",
-      "id": "05e666c42194721a",
+      "id": "dc881a1dbf01d7da",
       "type": "paragraph"
     },
     {
       "text": "&lt;pre&gt;\n  mumble\n      bar\n        bas\n&lt;/pre&gt;",
-      "id": "038afce206959a5e",
+      "id": "323014aa0dc00782",
       "type": "paragraph"
     },
     {
       "text": "&lt;blockquote&gt; Quoting &lt;/blockquote&gt;",
-      "id": "9f0cd11fdb324116",
+      "id": "3171dc27f98fb7b3",
       "type": "paragraph"
     },
     {
-      "text": "<text>Insert image: \"barbarbar.gif\" here.</text>",
-      "id": "219274ede493ecc3",
+      "text": "<text>Insert image: 'barbarbar.gif' here.</text>",
+      "id": "c921164d3b386a91",
       "type": "paragraph"
     },
     {
       "text": "&lt;dl&gt;\n&lt;dt&gt;Apple&lt;/dt&gt;&lt;dd&gt;Fruit or a Big Company&lt;/dd&gt;\n&lt;dt&gt;Orange&lt;/dt&gt;\n&lt;dd&gt;Fruit or a Small Company&lt;/dd&gt;\n&lt;/dl&gt;",
-      "id": "3670133a97ee5b63",
+      "id": "ff43329aa719d1e8",
       "type": "paragraph"
     },
     {
       "text": "<text>[http://jbergin.com Joe Bergin's Web Site]</text>",
-      "id": "a14827df222edd79",
+      "id": "ba17a938eaa9292a",
       "type": "paragraph"
     }
   ]

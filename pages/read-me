@@ -2,7 +2,7 @@
   "title": "Read Me",
   "journal": [
     {
-      "id": "c5639a8e4fcd8ac7",
+      "id": "60f0426e624a6b3c",
       "type": "create",
       "item": {
         "title": "Read Me"
@@ -12,52 +12,52 @@
   "story": [
     {
       "text": "Here we reformat minimal HTML to JSON and publish it as an instance of the Smallest Federated Wiki.",
-      "id": "2d0db035142e6d1d",
+      "id": "0283adf61f9b2eb3",
       "type": "paragraph"
     },
     {
       "text": "This script is a modificatiion of the one Ward Cunningham used to translate the patterns of practice files from XHTML to JSON. ",
-      "id": "13366cd7038cfea6",
+      "id": "5e7698eb85ba47dd",
       "type": "paragraph"
     },
     {
       "text": "The script html-json.rb will translate a minimally processed set of text files into pages suitable for SFW as well as a summary (index) page. It requires properly formatted html input, but doesn't need much refinement. It processes paragraphs and images only. It will optionally tranform either bold or italic text into wiki links. So &lt;b&gt;foo&lt;/b&gt; becomes [[foo]], for example. ",
-      "id": "9a23c23ddf3a0004",
+      "id": "a699957b4d9ead68",
       "type": "paragraph"
     },
     {
       "text": "If you already have correctly formatted html files, you don't need to do anything except attend to the filenames so you get the page titles you desire. You should rename the file so that it's filename is a captialized bumpy word with an html extension. For example mumblefoo.txt might become MumbleFoo.html before processing. The page title will then be Mumble Foo.  ",
-      "id": "cddd5fe0a4de737c",
+      "id": "1ebd38b71107790e",
       "type": "paragraph"
     },
     {
       "text": "The script is intended to be run from the scripts folder. The script has three arguments. -b will transform text within bold tags into wiki links. -i will transform italic tags into links. If you use both it will work, unless you have text that is both bold and italic. Then the [[ ... ]] will be added twice. It will work, but look ugly.",
-      "id": "88c4989247b94b83",
+      "id": "f7a7f291d692cec3",
       "type": "paragraph"
     },
     {
       "text": "If you use the -t argument, then the following arg is a string with the title of the summary page. If you don't want a summary, use -t '' as an argument pair. ",
-      "id": "85ddef9690005812",
+      "id": "720c4f80afbeb8a7",
       "type": "paragraph"
     },
     {
       "text": "The script reads a set of files from ./scripts/originals and produces its output into ../pages (which must exist). The summary, if any, is also placed there. The originals are not modified. ",
-      "id": "a7dd6ed6b19d711c",
+      "id": "8840760fdb196ab2",
       "type": "paragraph"
     },
     {
       "text": "&lt;hr/&gt;",
-      "id": "a5e0e4f7281bc1ed",
+      "id": "3bd4daf1b55f0bb6",
       "type": "paragraph"
     },
     {
       "text": "If you have a straight text file to process, do this first. Use markdown (http://daringfireball.net/projects/markdown/) to add paragraph markers, or do it by hand. Markdown transforms doubled newlines into paragraph breaks and correctly formats them. Assure that your img tags are correctly fomatted (strict): &lt;img src=\"mumble.gif\"/&gt;. Add &lt;html&gt;&lt;body&gt; to the beginning and &lt;/body&gt;&lt;/html&gt; to the end. The file should now be ok for this script to process. Don't bother with any other markdown options than blank lines, or the produced html will not work well in the wiki. Code fragments might be ok, though. ",
-      "id": "9a63bdde558306fe",
+      "id": "eebb94baae381e75",
       "type": "paragraph"
     },
     {
       "text": "&lt;pre&gt;\n    begin\n        mumble\n    end\n&lt;/pre&gt;",
-      "id": "f82b6aa93d1ce076",
+      "id": "6689e203ef2a97fe",
       "type": "paragraph"
     }
   ]
