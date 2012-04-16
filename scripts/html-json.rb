@@ -19,6 +19,14 @@ def shrinkWhitespace text
 	text.gsub(/\s+/, ' ').gsub(/\t+/, ' ').gsub(/\n/,' ');
 end
 
+def deBumpy text
+	if @deBump
+		text.gsub(/([a-z])([A-Z])/,'\1 \2')
+	else
+		text
+	end
+end
+
 def url text
   text.gsub(/(http:\/\/)?([a-zA-Z0-9._-]+?\.(net|com|org|edu)(\/[^ )]+)?)/,'[http:\/\/\2 \2]')
 end
@@ -65,7 +73,7 @@ def convert title, doc
   doc.css('a').each do |elem|
   	if elem.content != nil and elem.content.strip.length > 0
   		if elem.attr('href').lstrip.index(".") == 0 #local
-  			elem.replace doc.create_element('text',"[[#{shrinkWhitespace(elem.content.strip)}]]")
+  			elem.replace doc.create_element('text',"[[#{deBumpy(shrinkWhitespace(elem.content.strip))}]]")
   		else #global
   			elem.replace doc.create_element('text', "[#{elem.attr('href')} #{shrinkWhitespace(elem.content.strip)}]")
   		end
@@ -170,11 +178,11 @@ def convert title, doc
 	  end  
   elsif @italics # just italics
 	  doc.css('i').each do |elem|
-		elem.content = "[[#{elem.content}]]" 
+		elem.content = "[[#{deBumpy(elem.content)}]]" 
 	  end
   elsif @bold #just bold
 	  doc.css('b').each do |elem|
-		elem.content = "[[#{elem.content}]]" 
+		elem.content = "[[#{deBumpy(elem.content)}]]" 
 	  end
   end
   
@@ -254,10 +262,13 @@ end
 @bold = false
 @italics = false
 @sumaryTitle = nil
+@deBump = false
 
 for i in 0...ARGV.length 
 	if ARGV[i] == '-b'
 		@bold = true
+	elsif ARGV[i] == '-d'
+		@deBump = true
 	elsif ARGV[i] == '-j'
 		@fullJournal = true
 	elsif ARGV[i] == '-f'
@@ -268,6 +279,7 @@ for i in 0...ARGV.length
 		@sumaryTitle = ARGV[i+1]
 	elsif ARGV[i] == '-h'
 		puts '-b to transform bold to wiki link'
+		puts "-d transform BumpyWords into space seperated phrases. e.g. Bumpy Words"
 		puts '-f to prevent flattening of lists'
 		puts '-i to transform italic to wiki link'
 		puts '-j to produce a full journal in the output files'

@@ -6,9 +6,11 @@
 
 <p>The script html-json.rb will translate a minimally processed set of text files into pages suitable for SFW as well as create a summary (index) page. It requires properly formatted html input, but doesn't need much refinement. It processes paragraphs, preformatted text, and images. It will optionally tranform either bold or italic text into wiki links. So &lt;b>foo&lt;/b> becomes [[foo]], for example. Wiki page titles are taken from filenames - see below.</p>
 
+<p> If you use the -d option, traditional wiki names in links (bumpy words) will be "de bumped" and turned into multi word phrases more appropriate for SFW. For example BumpyWord (in a link) will become [[Bumpy Word]]. This also applies when the -b or -i option treats bold or italic text as links. </p>
+
 <p> A correctly formatted &lt;pre> ...&lt;/pre> tag will be wrapped in a paragraph but otherwise preserved, similarly for the code tag. Likewise headings (H1..H6) will be preserved in the same way. Note that the wiki itself seems to show H1 and H2 tags as H3 instead to avoid overwhelming the small page format. </p>
 
-<p>It will translate anchor tags within paragraphs into wiki external links [href text] or internal links [[text]] depending on the form of the href. If the href starts with a period, as in ./mumble, it assumes the link is to point to another wiki page and creates an internal link. Otherwise, say if it starts out http://, it will create an external link.</p>
+<p>It will translate anchor tags within paragraphs into wiki external links [href text] or internal links [[text]] depending on the form of the href. If the href starts with a period, as in ./mumble, it assumes the link is to point to another wiki page and creates an internal link. Otherwise, say if it starts out http://, it will create an external link. The script expects the href value to be quoted. </p>
 
 <p> Horizontal rules are preserved. </p>
 
