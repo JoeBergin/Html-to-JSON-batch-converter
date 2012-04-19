@@ -11,14 +11,17 @@ def slug title
   title.gsub(/\s/, '-').gsub(/[^A-Za-z0-9-]/, '').downcase()
 end
 
+#clean curly quotes and remove non-breaking spaces
 def clean text
   text.gsub(/’/,"'").gsub(/&nbsp;/,' ')
 end
 
+# clean multiple (internal) spaces-newlines-tabs to single spaces. 
 def shrinkWhitespace text
 	text.gsub(/\s+/, ' ').gsub(/\t+/, ' ').gsub(/\n/,' ');
 end
 
+# put spaces in bumpy words to be compatible with SFW
 def deBumpy text
 	if @deBump
 		text.gsub(/([a-z])([A-Z])/,'\1 \2')
@@ -27,6 +30,65 @@ def deBumpy text
 	end
 end
 
+# unused here, but translate back to original form
+def decode_base64( text )
+	text.unpack( "m" )[0]
+end
+
+# encode a file's contents in base_64 - found on web
+def encode_base64( bin )
+	[ bin ].pack( "m" ).gsub( /\s/, "" )
+end
+
+##########
+# remove image tags from nodes known to have them to
+# retain rest of paragraphs that contain images
+def cleanImages elem
+	if elem.inner_html.to_s =~ /(.*?)<img.*?src="(.*?)".*?>(.*?)$/  
+			$1 + " " + $3 #" (image: " + $2 + ") " + $3
+  	elsif
+		elem.content.to_s =~ /(.*?)<img.*?src="(.*?)".*?>(.*?)$/  
+			$1 + " " + $3 #" (image: " + $2 + ") " + $3 
+  	end
+end
+
+# modify file paths relative to . rather than originals
+def appendBase filename
+	if filename =~ /^\.\.\/(.*)$/
+		"./" + $1
+	elsif filename =~ /^\.\/(.*)$/
+		@imageBase + $1
+	elsif filename =~ /^http.*?$/
+		filename
+	else
+		@imageBase + filename
+	end
+end
+
+# produce json from an img tag for a local file when possible
+def image imageRef
+#puts 'processing ' + imageRef
+	if imageRef =~ /(.*?)\.(jpg|gif|png|JPG|GIF|PNG)/
+		filename, type = $1, $2
+#		puts filename + '--->' + type
+		fullname = filename+'.' + type
+		contents = File.open(appendBase(fullname), "rb").read
+		bin = encode_base64 contents
+		{ 'type' => 'image', 
+			'id' => random(), 
+			'url' => "data:image/#{type};base64,#{bin}",
+			'caption' => fullname 
+		}
+	else
+		puts "No match for: " + imageRef+ ". Assume manual insertion."
+		paragraph "Insert image: " + imageRef
+	end
+	rescue
+		puts "Exception for: " + imageRef + ". Assume external link."
+		paragraph "[#{imageRef} #{imageRef}]"
+end
+
+# unused - turn a naked url into an external link
 def url text
   text.gsub(/(http:\/\/)?([a-zA-Z0-9._-]+?\.(net|com|org|edu)(\/[^ )]+)?)/,'[http:\/\/\2 \2]')
 end
@@ -57,7 +119,7 @@ def pageWithJournal title, story, journal
   end
 end
 
-
+# ask if a node is contained within a paragraph already
 def inParagraph? node
 	while node != nil and node.name != 'document' and node.name != 'p'
 		node = node.parent
@@ -74,11 +136,12 @@ def convert title, doc
 		elem.replace doc.create_element('p', doc.create_element('h1',elem.content))
 	  end
   end
-  # transform images into manual instructions
+  
+  # transform images into paragraphs
   doc.css('img').each do |elem| 
-    container = 'p'
-    container = 'text' if inParagraph?(elem)
-  	elem.replace doc.create_element(container, "Insert image: \'" + elem.attr('src') + "\' here.")
+	if !inParagraph? elem
+		elem.replace doc.create_element('p', elem)
+	end
   end
   
   # anchors. local-file to wiki page refs, global-http to external refs
@@ -209,20 +272,48 @@ def convert title, doc
   end
   
   # create the wiki story from all the paragraphs
-  story = doc.css('p').collect do |elem|
-    paragraph clean(elem.inner_html)
+  # special processing for images
+  story = []
+  doc.css('p').each do |elem|  
+  	sawImage = false
+	if elem.inner_html.to_s =~ /.*?<img.*?src="(.*?)\.(jpg|gif|png|JPG|GIF|PNG)"/  
+			fullname = $1 + '.' + $2
+#  			puts 'got image from inner ' + fullname
+			theImage = image fullname
+  			story << theImage unless theImage == nil
+  			sawImage = true
+  	elsif
+		elem.content.to_s =~ /.*?<img.*?src="(.*?)\.(jpg|gif|png|JPG|GIF|PNG)"/  
+			fullname = $1 + '.' + $2
+#  			puts 'got image from content ' + fullname
+			theImage = image fullname
+  			story << theImage unless theImage == nil
+  			sawImage = true
+  	end
+  	if !sawImage
+  		newPara = clean(elem.inner_html).strip
+		if newPara != nil and newPara != ""
+			story << (paragraph newPara) 
+		end
+	else
+		newPara = cleanImages(elem).strip
+		if newPara != nil and newPara != ""
+			story << (paragraph newPara)
+		end
+	end
+	
   end
   
-  journal = [create title]
+  journal = [create title]  
   if @fullJournal
   	story.each do |para|
-  	journal << {
-  		'type' => 'add',
-  		'id' => para['id'],
-  		'item' => para
-  	}
+		journal << {
+			'type' => 'add',
+			'id' => para['id'],
+			'item' => para
+		}
+	end
   	pageWithJournal title, story, journal
-  	end
   else
   	page title, story
   end
@@ -269,6 +360,7 @@ end
 @sumaryTitle = nil
 @deBump = false
 @capturePageTitle = false
+@imageBase = "./originals/"
 
 for i in 0...ARGV.length 
 	if ARGV[i] == '-b'

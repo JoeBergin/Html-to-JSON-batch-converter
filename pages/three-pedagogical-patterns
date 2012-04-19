@@ -2,102 +2,264 @@
   "title": "Three Pedagogical Patterns",
   "journal": [
     {
-      "id": "4cc6f02176e4cc5c",
+      "id": "344bac036ec8eb93",
       "type": "create",
       "item": {
         "title": "Three Pedagogical Patterns"
+      }
+    },
+    {
+      "id": "8c4ef4b6149699fa",
+      "type": "add",
+      "item": {
+        "text": "Seminars",
+        "id": "8c4ef4b6149699fa",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "fb91e8b6f4c3b372",
+      "type": "add",
+      "item": {
+        "text": "Digestible Packets *",
+        "id": "fb91e8b6f4c3b372",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "aac9d522878f2766",
+      "type": "add",
+      "item": {
+        "text": "People can only concentrate for a limited period of time. This is the primary reason to include regular <i>BREAKS</i> [VF]. If a topic takes longer than the time people can concentrate, the participants will have difficulties understanding the topic in its entirety. Because comprehension decreases, the motivation will decrease, too, and the seminar will be considered difficult.",
+        "id": "aac9d522878f2766",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "e34a3323242fc9ae",
+      "type": "add",
+      "item": {
+        "text": "&#x274A;&#x274A;&#x274A;",
+        "id": "e34a3323242fc9ae",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "39091f65233e80f7",
+      "type": "add",
+      "item": {
+        "text": "Therefore, organize the topics in such a way, that the topics remain small and understandable. Ideally, each topic should be understandable on its own and should be finished during a reasonable amount of time, ideally the time the participants are able to concentrate. If the topic takes longer, make a break! Be sure to <b>REVIEW AFTER BREAKS</b> [VF] to bring them back in line. Create logically consistent packets and show the interrelations among the packets.",
+        "id": "39091f65233e80f7",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "98c85c81ca94fc3a",
+      "type": "add",
+      "item": {
+        "text": "Be sure that at the end of each session (or at least of each day) the topic is finished, usable, and complete. The participants will leave with a feeling of accomplishment and satisfaction. You can use a SUMMARY [VF] to augment this feeling. As a consequence, you should also avoid to organize a seminar that only covers \"dry, unimportant\" theory for the first three days, until at the fourth day, practically usable topics are taught. After at most two days, the participants will be disappointed and frustrated.",
+        "id": "98c85c81ca94fc3a",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "23acfaa225036b98",
+      "type": "add",
+      "item": {
+        "text": "Repeat Topics *",
+        "id": "23acfaa225036b98",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "81f94c9cac47abec",
+      "type": "add",
+      "item": {
+        "text": "There are some biological preconditions for effective learning. The brain can remember things easier, if it can connect new topics to old ones, and it considers those topics important, that it comes across repeatedly. The transfer of knowledge from the short-term memory into the long-term memory happens easier after a couple of repetitions.",
+        "id": "81f94c9cac47abec",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "af67d4a95d1ea2ab",
+      "type": "add",
+      "item": {
+        "text": "&lt;img src=\"mumble.foo\"/&gt;",
+        "id": "af67d4a95d1ea2ab",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "6fe94aa63c5f745b",
+      "type": "add",
+      "item": {
+        "text": "&#x274A;&#x274A;&#x274A;",
+        "id": "6fe94aa63c5f745b",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "cdab07f12209a6c1",
+      "type": "add",
+      "item": {
+        "text": "Therefore, repeat important topics. Create cross links among topics to allow the participants to connect new topics to older ones. Be sure to repeat only important topics, and not more or less unimportant details. Otherwise, the participants&#x2018; brains will interpret a repetition as &#x201E;this is important&#x201C;. Using older facts as a basis for new things is also a means of repeating topics, this is facilitated by teaching <b>GENERAL CONCEPTS FIRST</b> [VF]. Additional repetitions are of course provided by a <b>REVIEW AFTER BREAKS</b> [VF], or by recalling them in a SUMMARY [VF] session.",
+        "id": "cdab07f12209a6c1",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "cb5781d5536f9f95",
+      "type": "add",
+      "item": {
+        "text": "There are different ways how things can be repeated. For example, exercises can be used. Or you could let the participants discuss and relate the three most important topics.",
+        "id": "cb5781d5536f9f95",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "cf476014d5b2c29b",
+      "type": "add",
+      "item": {
+        "text": "Teacher's Language *",
+        "id": "cf476014d5b2c29b",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "d25d6edf440d6920",
+      "type": "add",
+      "item": {
+        "text": "In addition to the technical contents, one of the most important aspects of good teaching is the medium with which the contents are primarily transported &#x2013; namely your language. Your speech should be easily understandable for all participants.",
+        "id": "d25d6edf440d6920",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "7f0d78e0cb4b42ea",
+      "type": "add",
+      "item": {
+        "text": "&#x274A;&#x274A;&#x274A;",
+        "id": "7f0d78e0cb4b42ea",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "2b6bfa55ad065321",
+      "type": "add",
+      "item": {
+        "text": "Therefore, you should use a language that suits the participants, being expressive and fascinating at the same time. Your voice should resemble the suspense that should prevail in the participants. You should speak loud enough that in can be heard in the whole room. If you run a lot of seminars and you experience problems with your voice you should consider training you voice, control your breathing and ensure proper posture.",
+        "id": "2b6bfa55ad065321",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "abd32d69a44628f5",
+      "type": "add",
+      "item": {
+        "text": "Use short, simple sentences. Technical termini should only be used if they are well known. Use a verbal style. Speak slowly and insert breaks to give the listeners a chance to process complicated facts. Accentuate important topics by changing your voice, by varying your talking rate or by repeating them. Speak loud enough and do not use too much dialect.",
+        "id": "abd32d69a44628f5",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "74b308bbb51681b8",
+      "type": "add",
+      "item": {
+        "text": "If non-native speakers are among the participants, you should slow down your speech to ensure that everybody can follow.",
+        "id": "74b308bbb51681b8",
+        "type": "paragraph"
       }
     }
   ],
   "story": [
     {
       "text": "Seminars",
-      "id": "891e9c6299852e10",
+      "id": "8c4ef4b6149699fa",
       "type": "paragraph"
     },
     {
       "text": "Digestible Packets *",
-      "id": "d138c2c4cdd57d78",
+      "id": "fb91e8b6f4c3b372",
       "type": "paragraph"
     },
     {
       "text": "People can only concentrate for a limited period of time. This is the primary reason to include regular <i>BREAKS</i> [VF]. If a topic takes longer than the time people can concentrate, the participants will have difficulties understanding the topic in its entirety. Because comprehension decreases, the motivation will decrease, too, and the seminar will be considered difficult.",
-      "id": "5ed7ff2903b07788",
+      "id": "aac9d522878f2766",
       "type": "paragraph"
     },
     {
       "text": "&#x274A;&#x274A;&#x274A;",
-      "id": "c63cf06da5b6a728",
+      "id": "e34a3323242fc9ae",
       "type": "paragraph"
     },
     {
       "text": "Therefore, organize the topics in such a way, that the topics remain small and understandable. Ideally, each topic should be understandable on its own and should be finished during a reasonable amount of time, ideally the time the participants are able to concentrate. If the topic takes longer, make a break! Be sure to <b>REVIEW AFTER BREAKS</b> [VF] to bring them back in line. Create logically consistent packets and show the interrelations among the packets.",
-      "id": "310b17c8cde2fb8b",
+      "id": "39091f65233e80f7",
       "type": "paragraph"
     },
     {
       "text": "Be sure that at the end of each session (or at least of each day) the topic is finished, usable, and complete. The participants will leave with a feeling of accomplishment and satisfaction. You can use a SUMMARY [VF] to augment this feeling. As a consequence, you should also avoid to organize a seminar that only covers \"dry, unimportant\" theory for the first three days, until at the fourth day, practically usable topics are taught. After at most two days, the participants will be disappointed and frustrated.",
-      "id": "8dcfa8393091b955",
+      "id": "98c85c81ca94fc3a",
       "type": "paragraph"
     },
     {
       "text": "Repeat Topics *",
-      "id": "15aa622214dc34be",
+      "id": "23acfaa225036b98",
       "type": "paragraph"
     },
     {
-      "text": "\nThere are some biological preconditions for effective learning. The brain can remember things easier, if it can connect new topics to old ones, and it considers those topics important, that it comes across repeatedly. The transfer of knowledge from the short-term memory into the long-term memory happens easier after a couple of repetitions.",
-      "id": "d076bae0ca32dff4",
+      "text": "There are some biological preconditions for effective learning. The brain can remember things easier, if it can connect new topics to old ones, and it considers those topics important, that it comes across repeatedly. The transfer of knowledge from the short-term memory into the long-term memory happens easier after a couple of repetitions.",
+      "id": "81f94c9cac47abec",
       "type": "paragraph"
     },
     {
-      "text": "Insert image: 'mumble.foo' here.",
-      "id": "a1c5c22771c5f2e7",
+      "text": "&lt;img src=\"mumble.foo\"/&gt;",
+      "id": "af67d4a95d1ea2ab",
       "type": "paragraph"
     },
     {
       "text": "&#x274A;&#x274A;&#x274A;",
-      "id": "c6870d23de2ea2db",
+      "id": "6fe94aa63c5f745b",
       "type": "paragraph"
     },
     {
       "text": "Therefore, repeat important topics. Create cross links among topics to allow the participants to connect new topics to older ones. Be sure to repeat only important topics, and not more or less unimportant details. Otherwise, the participants&#x2018; brains will interpret a repetition as &#x201E;this is important&#x201C;. Using older facts as a basis for new things is also a means of repeating topics, this is facilitated by teaching <b>GENERAL CONCEPTS FIRST</b> [VF]. Additional repetitions are of course provided by a <b>REVIEW AFTER BREAKS</b> [VF], or by recalling them in a SUMMARY [VF] session.",
-      "id": "94859004032ac141",
+      "id": "cdab07f12209a6c1",
       "type": "paragraph"
     },
     {
       "text": "There are different ways how things can be repeated. For example, exercises can be used. Or you could let the participants discuss and relate the three most important topics.",
-      "id": "cdb6683f595b7fc7",
+      "id": "cb5781d5536f9f95",
       "type": "paragraph"
     },
     {
       "text": "Teacher's Language *",
-      "id": "f905a1d3a747c6cc",
+      "id": "cf476014d5b2c29b",
       "type": "paragraph"
     },
     {
       "text": "In addition to the technical contents, one of the most important aspects of good teaching is the medium with which the contents are primarily transported &#x2013; namely your language. Your speech should be easily understandable for all participants.",
-      "id": "fcad881ccd879761",
+      "id": "d25d6edf440d6920",
       "type": "paragraph"
     },
     {
       "text": "&#x274A;&#x274A;&#x274A;",
-      "id": "0e309f592b1f92d4",
+      "id": "7f0d78e0cb4b42ea",
       "type": "paragraph"
     },
     {
       "text": "Therefore, you should use a language that suits the participants, being expressive and fascinating at the same time. Your voice should resemble the suspense that should prevail in the participants. You should speak loud enough that in can be heard in the whole room. If you run a lot of seminars and you experience problems with your voice you should consider training you voice, control your breathing and ensure proper posture.",
-      "id": "262e8e8b01e2610f",
+      "id": "2b6bfa55ad065321",
       "type": "paragraph"
     },
     {
       "text": "Use short, simple sentences. Technical termini should only be used if they are well known. Use a verbal style. Speak slowly and insert breaks to give the listeners a chance to process complicated facts. Accentuate important topics by changing your voice, by varying your talking rate or by repeating them. Speak loud enough and do not use too much dialect.",
-      "id": "376284df625da181",
+      "id": "abd32d69a44628f5",
       "type": "paragraph"
     },
     {
-      "text": "\nIf non-native speakers are among the participants, you should slow down your speech to ensure that everybody can follow.",
-      "id": "fc2ecfc29c96eb97",
+      "text": "If non-native speakers are among the participants, you should slow down your speech to ensure that everybody can follow.",
+      "id": "74b308bbb51681b8",
       "type": "paragraph"
     }
   ]

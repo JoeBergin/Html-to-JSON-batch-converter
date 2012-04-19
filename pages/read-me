@@ -2,62 +2,166 @@
   "title": "Read Me",
   "journal": [
     {
-      "id": "f4be1a0355e800c6",
+      "id": "b15a832e6fbbc1bc",
       "type": "create",
       "item": {
         "title": "Read Me"
+      }
+    },
+    {
+      "id": "a8b72b89b7d9cf1a",
+      "type": "add",
+      "item": {
+        "text": "Here we reformat minimal HTML to JSON and publish it as an instance of the Smallest Federated Wiki.",
+        "id": "a8b72b89b7d9cf1a",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "ced0bc1d75f6d1c1",
+      "type": "add",
+      "item": {
+        "text": "This script is a modificatiion of the one Ward Cunningham used to translate the patterns of practice files from XHTML to JSON.",
+        "id": "ced0bc1d75f6d1c1",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "0ce195543339a5db",
+      "type": "add",
+      "item": {
+        "text": "The script html-json.rb will translate a minimally processed set of text files into pages suitable for SFW as well as a summary (index) page. It requires properly formatted html input, but doesn't need much refinement. It processes paragraphs and images only. It will optionally tranform either bold or italic text into wiki links. So &lt;b&gt;foo&lt;/b&gt; becomes [[foo]], for example.",
+        "id": "0ce195543339a5db",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "08c8b039581fb019",
+      "type": "add",
+      "item": {
+        "text": "If you already have correctly formatted html files, you don't need to do anything except attend to the filenames so you get the page titles you desire. You should rename the file so that it's filename is a captialized bumpy word with an html extension. For example mumblefoo.txt might become MumbleFoo.html before processing. The page title will then be Mumble Foo.",
+        "id": "08c8b039581fb019",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "1263e74b77fab4cd",
+      "type": "add",
+      "item": {
+        "text": "The script is intended to be run from the scripts folder. The script has three arguments. -b will transform text within bold tags into wiki links. -i will transform italic tags into links. If you use both it will work, unless you have text that is both bold and italic. Then the [[ ... ]] will be added twice. It will work, but look ugly.",
+        "id": "1263e74b77fab4cd",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "fe9a5dfc2ee25579",
+      "type": "add",
+      "item": {
+        "text": "If you use the -t argument, then the following arg is a string with the title of the summary page. If you don't want a summary, use -t '' as an argument pair.",
+        "id": "fe9a5dfc2ee25579",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "ce19a4a198b75f6f",
+      "type": "add",
+      "item": {
+        "text": "The script reads a set of files from ./scripts/originals and produces its output into ../pages (which must exist). The summary, if any, is also placed there. The originals are not modified.",
+        "id": "ce19a4a198b75f6f",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "7f64aa9749363493",
+      "type": "add",
+      "item": {
+        "text": "&lt;hr/&gt;",
+        "id": "7f64aa9749363493",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "a413def803c2a2a4",
+      "type": "add",
+      "item": {
+        "text": "[mumble.gif mumble.gif]",
+        "id": "a413def803c2a2a4",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "a2ec9e956e42802f",
+      "type": "add",
+      "item": {
+        "text": "If you have a straight text file to process, do this first. Use markdown (http://daringfireball.net/projects/markdown/) to add paragraph markers, or do it by hand. Markdown transforms doubled newlines into paragraph breaks and correctly formats them. Assure that your img tags are correctly fomatted (strict):  . Add <html><body> to the beginning and </body></html> to the end. The file should now be ok for this script to process. Don't bother with any other markdown options than blank lines, or the produced html will not work well in the wiki. Code fragments might be ok, though.",
+        "id": "a2ec9e956e42802f",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "2df6b70e6cea1cf8",
+      "type": "add",
+      "item": {
+        "text": "&lt;pre&gt;\n    begin\n        mumble\n    end\n&lt;/pre&gt;",
+        "id": "2df6b70e6cea1cf8",
+        "type": "paragraph"
       }
     }
   ],
   "story": [
     {
       "text": "Here we reformat minimal HTML to JSON and publish it as an instance of the Smallest Federated Wiki.",
-      "id": "f81a883f386fd5fa",
+      "id": "a8b72b89b7d9cf1a",
       "type": "paragraph"
     },
     {
-      "text": "This script is a modificatiion of the one Ward Cunningham used to translate the patterns of practice files from XHTML to JSON. ",
-      "id": "d1bed514267fad7b",
+      "text": "This script is a modificatiion of the one Ward Cunningham used to translate the patterns of practice files from XHTML to JSON.",
+      "id": "ced0bc1d75f6d1c1",
       "type": "paragraph"
     },
     {
-      "text": "The script html-json.rb will translate a minimally processed set of text files into pages suitable for SFW as well as a summary (index) page. It requires properly formatted html input, but doesn't need much refinement. It processes paragraphs and images only. It will optionally tranform either bold or italic text into wiki links. So &lt;b&gt;foo&lt;/b&gt; becomes [[foo]], for example. ",
-      "id": "93c7f35b298e54ae",
+      "text": "The script html-json.rb will translate a minimally processed set of text files into pages suitable for SFW as well as a summary (index) page. It requires properly formatted html input, but doesn't need much refinement. It processes paragraphs and images only. It will optionally tranform either bold or italic text into wiki links. So &lt;b&gt;foo&lt;/b&gt; becomes [[foo]], for example.",
+      "id": "0ce195543339a5db",
       "type": "paragraph"
     },
     {
-      "text": "If you already have correctly formatted html files, you don't need to do anything except attend to the filenames so you get the page titles you desire. You should rename the file so that it's filename is a captialized bumpy word with an html extension. For example mumblefoo.txt might become MumbleFoo.html before processing. The page title will then be Mumble Foo.  ",
-      "id": "d5faa2f99647c707",
+      "text": "If you already have correctly formatted html files, you don't need to do anything except attend to the filenames so you get the page titles you desire. You should rename the file so that it's filename is a captialized bumpy word with an html extension. For example mumblefoo.txt might become MumbleFoo.html before processing. The page title will then be Mumble Foo.",
+      "id": "08c8b039581fb019",
       "type": "paragraph"
     },
     {
       "text": "The script is intended to be run from the scripts folder. The script has three arguments. -b will transform text within bold tags into wiki links. -i will transform italic tags into links. If you use both it will work, unless you have text that is both bold and italic. Then the [[ ... ]] will be added twice. It will work, but look ugly.",
-      "id": "754b3154d58bda19",
+      "id": "1263e74b77fab4cd",
       "type": "paragraph"
     },
     {
-      "text": "If you use the -t argument, then the following arg is a string with the title of the summary page. If you don't want a summary, use -t '' as an argument pair. ",
-      "id": "70a6a4767c92c370",
+      "text": "If you use the -t argument, then the following arg is a string with the title of the summary page. If you don't want a summary, use -t '' as an argument pair.",
+      "id": "fe9a5dfc2ee25579",
       "type": "paragraph"
     },
     {
-      "text": "The script reads a set of files from ./scripts/originals and produces its output into ../pages (which must exist). The summary, if any, is also placed there. The originals are not modified. ",
-      "id": "bf554522db95df2e",
+      "text": "The script reads a set of files from ./scripts/originals and produces its output into ../pages (which must exist). The summary, if any, is also placed there. The originals are not modified.",
+      "id": "ce19a4a198b75f6f",
       "type": "paragraph"
     },
     {
       "text": "&lt;hr/&gt;",
-      "id": "17f9b109761317ff",
+      "id": "7f64aa9749363493",
       "type": "paragraph"
     },
     {
-      "text": "If you have a straight text file to process, do this first. Use markdown (http://daringfireball.net/projects/markdown/) to add paragraph markers, or do it by hand. Markdown transforms doubled newlines into paragraph breaks and correctly formats them. Assure that your img tags are correctly fomatted (strict): &lt;img src=\"mumble.gif\"/&gt;. Add &lt;html&gt;&lt;body&gt; to the beginning and &lt;/body&gt;&lt;/html&gt; to the end. The file should now be ok for this script to process. Don't bother with any other markdown options than blank lines, or the produced html will not work well in the wiki. Code fragments might be ok, though. ",
-      "id": "9bd6116d3045c373",
+      "text": "[mumble.gif mumble.gif]",
+      "id": "a413def803c2a2a4",
+      "type": "paragraph"
+    },
+    {
+      "text": "If you have a straight text file to process, do this first. Use markdown (http://daringfireball.net/projects/markdown/) to add paragraph markers, or do it by hand. Markdown transforms doubled newlines into paragraph breaks and correctly formats them. Assure that your img tags are correctly fomatted (strict):  . Add <html><body> to the beginning and </body></html> to the end. The file should now be ok for this script to process. Don't bother with any other markdown options than blank lines, or the produced html will not work well in the wiki. Code fragments might be ok, though.",
+      "id": "a2ec9e956e42802f",
       "type": "paragraph"
     },
     {
       "text": "&lt;pre&gt;\n    begin\n        mumble\n    end\n&lt;/pre&gt;",
-      "id": "0b93224fc98ef89f",
+      "id": "2df6b70e6cea1cf8",
       "type": "paragraph"
     }
   ]

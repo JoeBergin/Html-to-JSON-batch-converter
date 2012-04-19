@@ -2,67 +2,166 @@
   "title": "Table Trial",
   "journal": [
     {
-      "id": "e12ba3f8021b4ae7",
+      "id": "77e23aff7093cf32",
       "type": "create",
       "item": {
         "title": "Table Trial"
+      }
+    },
+    {
+      "id": "0e420ae73102b8ab",
+      "type": "add",
+      "item": {
+        "text": "<h1> mumble </h1>",
+        "id": "0e420ae73102b8ab",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "9e730a83bfd1f812",
+      "type": "add",
+      "item": {
+        "text": "<span><h1> jar </h1></span>",
+        "id": "9e730a83bfd1f812",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "01d139ae9c2a6438",
+      "type": "add",
+      "item": {
+        "text": "<table width=\"80%\" border=\"1\" align=\"center\">\n  <tbody>\n    <tr>\n      <td>One  | two | three </td>\n    </tr>\n  </tbody>\n</table>",
+        "id": "01d139ae9c2a6438",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "d57c193effd29274",
+      "type": "add",
+      "item": {
+        "text": "onzer",
+        "id": "d57c193effd29274",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "3f1f96d2ab2f528e",
+      "type": "add",
+      "item": {
+        "text": "twozer",
+        "id": "3f1f96d2ab2f528e",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "cf2bd9dbf7a2cfdc",
+      "type": "add",
+      "item": {
+        "text": "treezer",
+        "id": "cf2bd9dbf7a2cfdc",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "758fe52f43d52b8d",
+      "type": "add",
+      "item": {
+        "text": "foo",
+        "id": "758fe52f43d52b8d",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "2cef74297ea76293",
+      "type": "add",
+      "item": {
+        "text": "bar",
+        "id": "2cef74297ea76293",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "d7f673bfe70fdb65",
+      "type": "add",
+      "item": {
+        "text": "bas",
+        "id": "d7f673bfe70fdb65",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "90287c41a981e99e",
+      "type": "add",
+      "item": {
+        "text": "quatrezer",
+        "id": "90287c41a981e99e",
+        "type": "paragraph"
+      }
+    },
+    {
+      "id": "0c78d8a336e917e1",
+      "type": "add",
+      "item": {
+        "text": "funfzer",
+        "id": "0c78d8a336e917e1",
+        "type": "paragraph"
       }
     }
   ],
   "story": [
     {
       "text": "<h1> mumble </h1>",
-      "id": "df0b5945f8392638",
+      "id": "0e420ae73102b8ab",
       "type": "paragraph"
     },
     {
       "text": "<span><h1> jar </h1></span>",
-      "id": "0f5268e36e9f16cf",
+      "id": "9e730a83bfd1f812",
       "type": "paragraph"
     },
     {
-      "text": "\n<table width=\"80%\" border=\"1\" align=\"center\">\n  <tbody>\n    <tr>\n      <td>One  | two | three </td>\n    </tr>\n  </tbody>\n</table>\n",
-      "id": "12b698234775ea7f",
+      "text": "<table width=\"80%\" border=\"1\" align=\"center\">\n  <tbody>\n    <tr>\n      <td>One  | two | three </td>\n    </tr>\n  </tbody>\n</table>",
+      "id": "01d139ae9c2a6438",
       "type": "paragraph"
     },
     {
-      "text": " onzer  ",
-      "id": "a0784b26719ce957",
+      "text": "onzer",
+      "id": "d57c193effd29274",
       "type": "paragraph"
     },
     {
-      "text": " twozer",
-      "id": "c76dd8d309a72614",
+      "text": "twozer",
+      "id": "3f1f96d2ab2f528e",
       "type": "paragraph"
     },
     {
-      "text": " treezer ",
-      "id": "5d20b2c9890592b0",
+      "text": "treezer",
+      "id": "cf2bd9dbf7a2cfdc",
       "type": "paragraph"
     },
     {
-      "text": " foo ",
-      "id": "caf408453ef45b27",
+      "text": "foo",
+      "id": "758fe52f43d52b8d",
       "type": "paragraph"
     },
     {
-      "text": " bar ",
-      "id": "1db9a05e26e5c935",
+      "text": "bar",
+      "id": "2cef74297ea76293",
       "type": "paragraph"
     },
     {
-      "text": " bas ",
-      "id": "410919e9a9993ccd",
+      "text": "bas",
+      "id": "d7f673bfe70fdb65",
       "type": "paragraph"
     },
     {
-      "text": " quatrezer  ",
-      "id": "1dbfdc87b1f6f119",
+      "text": "quatrezer",
+      "id": "90287c41a981e99e",
       "type": "paragraph"
     },
     {
-      "text": "funfzer ",
-      "id": "509d44039d32e296",
+      "text": "funfzer",
+      "id": "0c78d8a336e917e1",
       "type": "paragraph"
     }
   ]
